@@ -36,7 +36,7 @@ const VenuePage = () => {
         className="relative bg-cover bg-center"
         style={{
           height: "90vh",
-          backgroundImage: `url('/5.jpg')`,
+          backgroundImage: `url('5.jpg')`,
         }}
       >
         {/* Black Overlay */}

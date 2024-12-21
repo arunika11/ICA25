@@ -3,15 +3,15 @@ const CallsPage = () => {
   const deadlines = [
     {
       title: "Paper Submission Deadline",
-      date: "18th Jan 2024",
+      date: "23rd Feb 2024",
     },
     {
       title: "Acceptance Notification",
-      date: "18th Jan 2024",
+      date: "1st Apr 2024",
     },
     {
       title: "Camera Ready Submission",
-      date: "18th Jan 2024",
+      date: "15th Apr 2024",
     },
   ];
 
@@ -22,7 +22,7 @@ const CallsPage = () => {
         className="relative bg-cover bg-center"
         style={{
           height: "80vh", // Background height
-          backgroundImage: `url('/calls.png')`,
+          backgroundImage: `url('calls.png')`,
         }}
       >
         <div className="flex items-center h-full">
@@ -53,7 +53,7 @@ const CallsPage = () => {
 
               {/* Right Side Button */}
               <div className="flex items-center justify-start lg:justify-end mt-6 lg:mt-0 w-full lg:w-1/4">
-                <button
+               <a href="https://cmt3.research.microsoft.com/ICA2025"> <button
                   style={{ height: "40px" }}
                   className="flex items-center gap-x-4 font-body px-6 sm:px-8 py-2 bg-[#4ECB38] text-black font-medium hover:bg-green-600 transition-all duration-300"
                 >
@@ -71,6 +71,7 @@ const CallsPage = () => {
                     />
                   </svg>
                 </button>
+                </a>
               </div>
             </div>
           </div>
@@ -217,7 +218,7 @@ const CallsPage = () => {
             We are using Microsoft CMT for paper submission. Please use the
             following link for submission:
           </p>
-          <button
+          <a href="https://cmt3.research.microsoft.com/ICA2025"><button
             style={{ height: "50px" }}
             className="flex items-center gap-x-4 font-body px-6 sm:px-8 py-2 bg-[#4ECB38] text-black font-medium hover:bg-green-600 transition-all duration-300"
           >
@@ -242,6 +243,7 @@ const CallsPage = () => {
               />
             </svg>
           </button>
+          </a>
         </section>
       </div>
     </div>

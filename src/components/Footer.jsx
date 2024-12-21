@@ -24,39 +24,39 @@ const Footer = () => {
           <div className="flex flex-wrap gap-11 mt-6">
             <ul className="space-y-3 text-base">
               <li>
-                <a href="/" className="font-body hover:underline">
+                <a href="/ica25" className="font-body hover:underline">
                   Home
                 </a>
               </li>
               <li>
-                <a href="/program" className="font-body hover:underline">
+                <a href="/ica25/program" className="font-body hover:underline">
                   Program
                 </a>
               </li>
               <li>
-                <a href="/organisation" className="font-body hover:underline">
-                  Organisation
+                <a href="/ica25/organization" className="font-body hover:underline">
+                  Organization
                 </a>
               </li>
               <li>
-                <a href="/calls" className="font-body hover:underline">
+                <a href="/ica25/calls" className="font-body hover:underline">
                   Calls
                 </a>
               </li>
             </ul>
             <ul className="space-y-3 text-base">
               <li>
-                <a href="/venue" className="font-body hover:underline">
+                <a href="/ica25/venue" className="font-body hover:underline">
                   Venue
                 </a>
               </li>
               <li>
-                <a href="/sponsorship" className="font-body hover:underline">
+                <a href="/ica25/sponsorship" className="font-body hover:underline">
                   Sponsorship
                 </a>
               </li>
               <li>
-                <a href="/registration" className="font-body hover:underline">
+                <a href="/ica25/registration" className="font-body hover:underline">
                   Registration
                 </a>
               </li>
