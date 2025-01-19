@@ -3,15 +3,15 @@ const CallsPage = () => {
   const deadlines = [
     {
       title: "Paper Submission Deadline",
-      date: "23rd Feb 2024",
+      date: "23rd Feb 2025",
     },
     {
       title: "Acceptance Notification",
-      date: "1st Apr 2024",
+      date: "1st Apr 2025",
     },
     {
       title: "Camera Ready Submission",
-      date: "15th Apr 2024",
+      date: "15th Apr 2025",
     },
   ];
 
@@ -176,7 +176,7 @@ const CallsPage = () => {
         </section>
         <section>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-4 mt-11 font-heading">
-            About Instructions
+            Author Instructions
           </h2>
           <p className="font-body text-base sm:text-lg leading-relaxed mb-4">
             Full research papers should be between 10 to 12 pages, while short
@@ -184,7 +184,7 @@ const CallsPage = () => {
             LaTeX and Word templates and furhter formatting information, please
             visit the following link on Springer website:
           </p>
-          <button
+          <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines"><button
             style={{ height: "50px" }}
             className="border-gray-500 border-2 flex items-center gap-x-4 font-body px-6 sm:px-8 py-2 mt-10 text-black font-medium hover:bg-gray-300 transition"
           >
@@ -208,7 +208,7 @@ const CallsPage = () => {
                 stroke-linecap="round"
               />
             </svg>
-          </button>
+          </button></a>
         </section>
         <section className="mb-24 ">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-4 mt-11 font-heading">

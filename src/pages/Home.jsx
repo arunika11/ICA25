@@ -1,15 +1,10 @@
-
 import React from "react";
 import { FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
 
-
 const Home = () => {
-
- 
   return (
     <div>
       <div className="min-h-screen font-sans overflow-hidden">
-
         {/* Hero Section */}
         <section
           id="home"
@@ -45,12 +40,16 @@ const Home = () => {
 
                 {/* Buttons */}
                 <div className="flex space-x-4 mt-6 lg:mt-0 mr-10">
-                  <button className="font-body px-6 sm:px-8 py-2 bg-[#4ECB38] text-black font-medium hover:bg-green-600 transition">
-                    Register
-                  </button>
-                  <button className="font-body px-6 sm:px-8 py-2 border border-[#fff] text-white font-medium hover:bg-[#4ECB38] hover:text-black transition">
-                    Learn More
-                  </button>
+                  <a href="https://cmt3.research.microsoft.com/ICA2025">
+                    <button className="font-body px-6 sm:px-8 py-2 bg-[#4ECB38] text-black font-medium hover:bg-green-600 transition">
+                      Submission Link
+                    </button>
+                  </a>
+                  <a href="/ica25/registeration">
+                    <button className="font-body px-6 sm:px-8 py-2 border border-[#fff] text-white font-medium hover:bg-[#4ECB38] hover:text-black transition">
+                      Register
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -64,21 +63,19 @@ const Home = () => {
             About the <span className="text-[#4ECB38]">Event</span>
           </h2>
           <p className=" font-body text-lg leading-relaxed text-gray-700">
-            We are excited to announce the third edition of the International
+            We are thrilled to announce the third edition of the International
             Conference on Agriculture-Centric Computation (ICA 2025), to be held
-            at IIT Guwahati. This conference offers a dynamic platform for
-            researchers working at the intersection of agriculture and computing
-            to present their latest innovations. Accepted papers will be
-            published in the Springer CCIS book series, ensuring broad
-            visibility. We invite original research in areas such as IoT,
-            Precision Agriculture, Crop Yield Prediction, Remote Sensing,
-            Agricultural Datasets, and AI/ML in Agriculture.
-          </p>
-          <p className="font-body text-lg leading-relaxed text-gray-700">
-            Following the success of previous editions, including the inaugural
-            event at IIT Ropar in 2023, ICA 2025 continues to foster
-            cutting-edge discussions. Proceedings from earlier editions are
-            available on Springer CCIS.
+            at IIT Guwahati. Building on the success of the previous editions at
+            IIT Ropar (2023,<a className="text-blue-600 font-medium" href="https://link.springer.com/book/10.1007/978-3-031-43605-5"> Proceeding link </a>) and IIIT Delhi (2024,
+           <a  className="text-blue-600 font-medium" href="https://link.springer.com/book/9783031744396"> Proceeding link</a>), this conference provides a vibrant platform for
+            researchers at the intersection of agriculture and computing to
+            share groundbreaking innovations. We welcome original contributions
+            in areas such as IoT, Precision Agriculture, Crop Yield Prediction,
+            Remote Sensing, Agricultural Datasets, and AI/ML applications in
+            agriculture. Accepted papers will be published in the Springer CCIS
+            book series, ensuring global reach and impact. Join us at ICA 2025
+            as we continue fostering cutting-edge discussions and advancing the
+            field of agriculture-centric computation.
           </p>
         </div>
 
@@ -102,9 +99,9 @@ const Home = () => {
           <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
             <h3 className="text-xl font-semibold">AI/ML for Agriculture</h3>
             <p className="font-body text-lg leading-relaxed text-gray-300 mt-2">
-              We are excited to announce the third edition of the International
-              Conference on Agriculture-Centric Computation (ICA 2025), to be
-              held at IIT Guwahati.
+              Explore how AI and ML are transforming agriculture by enabling
+              smarter crop predictions, pest control, and optimized resource
+              use, driving sustainable farming practices.
             </p>
           </div>
 
@@ -112,9 +109,9 @@ const Home = () => {
           <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
             <h3 className="text-xl font-semibold">Remote Sensing</h3>
             <p className=" font-body text-lg leading-relaxed text-gray-300 mt-2">
-              We are excited to announce the third edition of the International
-              Conference on Agriculture-Centric Computation (ICA 2025), to be
-              held at IIT Guwahati.
+              Discover the power of remote sensing in agriculture, leveraging
+              satellite imagery, drones, and sensors to monitor crops, assess
+              soil health, and manage resources efficiently.
             </p>
           </div>
 
@@ -122,9 +119,9 @@ const Home = () => {
           <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
             <h3 className="text-xl font-semibold">Precision Agriculture</h3>
             <p className=" font-body text-lg leading-relaxed text-gray-300 mt-2">
-              We are excited to announce the third edition of the International
-              Conference on Agriculture-Centric Computation (ICA 2025), to be
-              held at IIT Guwahati.
+              Delve into precision agriculture technologies like GPS, IoT, and
+              robotics, offering data-driven solutions for efficient farming,
+              higher yields, and reduced environmental impact.
             </p>
           </div>
 
@@ -132,9 +129,9 @@ const Home = () => {
           <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
             <h3 className=" font-body text-xl font-semibold">IOT</h3>
             <p className="text-lg leading-relaxed text-gray-300 mt-2">
-              We are excited to announce the third edition of the International
-              Conference on Agriculture-Centric Computation (ICA 2025), to be
-              held at IIT Guwahati.
+              Uncover how IoT is revolutionizing agriculture with smart devices
+              and sensors, enabling real-time monitoring, automated systems, and
+              intelligent farm management.
             </p>
           </div>
         </div>
@@ -177,7 +174,7 @@ const Home = () => {
           {/* Sponsor 4 */}
           <div className="flex justify-center items-center">
             <img
-              src="iiitd.png" /* Replace with your actual image path */
+              src="iiitdd.png" /* Replace with your actual image path */
               alt="IIIT Delhi"
               className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
             />
@@ -238,7 +235,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
     </div>
   );
 };
