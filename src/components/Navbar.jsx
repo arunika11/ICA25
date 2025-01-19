@@ -28,7 +28,9 @@ const Navbar = () => {
 
   // Utility function to apply active class
   const isActive = (path) =>
-    location.pathname === path ? "text-[#4ECB38]" : "";
+    "/ica25" + location.pathname === path ? "text-[#4ECB38]" : "";
+  console.log("/ica25"+location.pathname);
+
 
   // Determine the navbar background style based on route and scroll
   const getBackgroundStyle = () => {
@@ -48,10 +50,10 @@ const Navbar = () => {
       className={`  fixed top-0 left-0 w-full z-50 px-4 sm:px-8 lg:px-16 transition-all duration-300 ${getBackgroundStyle()}`}
     >
       <div className="flex justify-between items-center h-24 px-4 py-4 lg:px-10 lg:py-4 border-b-2 border-white">
-        <a href="/">
+        <a href="/ica25">
           <div className="flex items-center">
             <img
-              src="/springer-logo.png"
+              src="springer-logo.png"
               alt="Springer Logo"
               className="h-8 sm:h-10 mr-4"
             />
@@ -60,49 +62,49 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <nav className="hidden lg:flex space-x-6">
           <a
-            href="/"
-            className={`font-body hover:text-[#4ECB38] ${isActive("/")}`}
+            href="/ica25"
+            className={`font-body hover:text-[#4ECB38] ${isActive("/ica25")}`}
           >
             Home
           </a>
           <a
-            href="/organization"
+            href="/ica25/organization"
             className={`font-body hover:text-[#4ECB38] ${isActive(
-              "/organization"
+              "/ica25/organization"
             )}`}
           >
             Organization
           </a>
           <a
-            href="/program"
-            className={`font-body hover:text-[#4ECB38] ${isActive("/program")}`}
+            href="/ica25/program"
+            className={`font-body hover:text-[#4ECB38] ${isActive("/ica25/program")}`}
           >
             Program
           </a>
           <a
-            href="/calls"
-            className={`font-body hover:text-[#4ECB38] ${isActive("/calls")}`}
+            href="/ica25/calls"
+            className={`font-body hover:text-[#4ECB38] ${isActive("/ica25/calls")}`}
           >
             Calls
           </a>
           <a
-            href="/venue"
-            className={`font-body hover:text-[#4ECB38] ${isActive("/venue")}`}
+            href="/ica25/venue"
+            className={`font-body hover:text-[#4ECB38] ${isActive("/ica25/venue")}`}
           >
             Venue
           </a>
           <a
-            href="/sponsorship"
+            href="/ica25/sponsorship"
             className={`font-body hover:text-[#4ECB38] ${isActive(
-              "/sponsorship"
+              "/ica25/sponsorship"
             )}`}
           >
             Sponsorship
           </a>
           <a
-            href="/registeration"
+            href="/ica25/registeration"
             className={`font-body hover:text-[#4ECB38] ${isActive(
-              "/registeration"
+              "/ica25/registeration"
             )}`}
           >
             Registeration
@@ -119,17 +121,17 @@ const Navbar = () => {
           <ul className="flex flex-col items-center space-y-4 py-4 text-white">
             <li>
               <a
-                href="/"
-                className={`font-body hover:underline ${isActive("/")}`}
+                href="/ica25"
+                className={`font-body hover:underline ${isActive("/ica25")}`}
               >
                 Home
               </a>
             </li>
             <li>
               <a
-                href="/organization"
+                href="/ica25/organization"
                 className={`font-body hover:underline ${isActive(
-                  "/organization"
+                  "/ica25/organization"
                 )}`}
               >
                 Organization
@@ -137,33 +139,33 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="/program"
-                className={`font-body hover:underline ${isActive("/program")}`}
+                href="/ica25/program"
+                className={`font-body hover:underline ${isActive("/ica25/program")}`}
               >
                 Program
               </a>
             </li>
             <li>
               <a
-                href="/calls"
-                className={`font-body hover:underline ${isActive("/calls")}`}
+                href="/ica25/calls"
+                className={`font-body hover:underline ${isActive("/ica25/calls")}`}
               >
                 Calls
               </a>
             </li>
             <li>
               <a
-                href="/venue"
-                className={`font-body hover:underline ${isActive("/venue")}`}
+                href="/ica25/venue"
+                className={`font-body hover:underline ${isActive("/ica25/venue")}`}
               >
                 Venue
               </a>
             </li>
             <li>
               <a
-                href="/sponsorship"
+                href="/ica25/sponsorship"
                 className={`font-body hover:underline ${isActive(
-                  "/sponsorship"
+                  "/ica25/sponsorship"
                 )}`}
               >
                 Sponsorship
@@ -171,9 +173,9 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="/registeration"
+                href="/ica25/registeration"
                 className={`font-body hover:text-[#4ECB38] ${isActive(
-                  "/registeration"
+                  "/ica25/registeration"
                 )}`}
               >
                 Registeration

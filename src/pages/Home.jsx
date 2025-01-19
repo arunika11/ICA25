@@ -15,7 +15,7 @@ const Home = () => {
           id="home"
           className="relative bg-cover bg-center min-h-screen"
           style={{
-            backgroundImage: `url('/agriculture-bg.jpg')`,
+            backgroundImage: `url('agriculture-bg.jpg')`,
           }}
         >
           <div className="min-h-screen flex items-center">
