@@ -10,6 +10,7 @@ import VenuePage from "./pages/Venue";
 import ProgramPage from "./pages/Program";
 import SponsorShipPage from "./pages/Sponsorship";
 import RegisterationPage from "./pages/Registeration";
+import Gallery from "./pages/Gallery";
 function App() {
   
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/program" element={<ProgramPage />} />
         <Route path="/sponsorship" element={<SponsorShipPage/>} />
         <Route path="/registeration" element={<RegisterationPage/>} />
+        <Route path="/gallery" element={<Gallery/>} />
       </Routes>
       <Footer/>
     </div>

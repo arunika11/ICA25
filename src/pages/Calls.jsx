@@ -3,7 +3,7 @@ const CallsPage = () => {
   const deadlines = [
     {
       title: "Paper Submission Deadline",
-      date: "23rd Feb 2025",
+      date: "1st March 2025",
     },
     {
       title: "Acceptance Notification",

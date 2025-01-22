@@ -109,6 +109,14 @@ const Navbar = () => {
           >
             Registeration
           </a>
+          <a
+            href="/ica25/gallery"
+            className={`font-body hover:text-[#4ECB38] ${isActive(
+              "/ica25/gallery"
+            )}`}
+          >
+            Gallery
+          </a>
         </nav>
         {/* Hamburger Icon */}
         <button className="lg:hidden text-2xl" onClick={toggleMenu}>
@@ -180,6 +188,14 @@ const Navbar = () => {
               >
                 Registeration
               </a>
+              <a
+            href="/ica25/gallery"
+            className={`font-body hover:text-[#4ECB38] ${isActive(
+              "/ica25/gallery"
+            )}`}
+          >
+            Gallery
+          </a>
             </li>
           </ul>
         </nav>
