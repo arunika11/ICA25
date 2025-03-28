@@ -3,15 +3,15 @@ const CallsPage = () => {
   const deadlines = [
     {
       title: "Paper Submission Deadline",
-      date: "1st March 2025",
+      date: "7th April 2025",
     },
     {
       title: "Acceptance Notification",
-      date: "1st Apr 2025",
+      date: "25th Apr 2025",
     },
     {
       title: "Camera Ready Submission",
-      date: "15th Apr 2025",
+      date: "1st May 2025",
     },
   ];
 
@@ -21,7 +21,7 @@ const CallsPage = () => {
         id="home"
         className="relative bg-cover bg-center"
         style={{
-          height: "80vh", // Background height
+          height: "70vh", // Background height
           backgroundImage: `url('calls.png')`,
         }}
       >
@@ -34,7 +34,7 @@ const CallsPage = () => {
             </h3>
 
             {/* Main Content Area */}
-            <div className="flex flex-col lg:flex-row mt-8 sm:mt-12 lg:mt-16 w-full justify-between items-start lg:items-center">
+            <div className="flex flex-col lg:flex-row mt-4 sm:mt-6 lg:mt-8 w-full justify-between items-start lg:items-center">
               {/* Left Side Content */}
               <div className="font-body space-y-6 lg:space-y-4 lg:w-3/4">
                 <div className="text-sm sm:text-lg text-white">
@@ -147,6 +147,9 @@ const CallsPage = () => {
             <li>
               Applications of hyper-spectral and multispectral imaging in
               agriculture
+            </li>
+            <li>
+            Remote sensing application in agriculture
             </li>
           </ul>
         </section>

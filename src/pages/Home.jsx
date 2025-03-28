@@ -23,6 +23,16 @@ const Home = () => {
                 Agriculture-Centric{" "}
                 <span className="font-semibold text-white">Computation</span>
               </h3>
+              <div
+                class="mx-auto
+            w-full md:w-10/12 lg:w-8/12
+            px-6 mt-5 sm:mr-8 lg:mr-10
+            text-end text-white
+            text-base md:text-xl lg:text-3xl"
+              >
+                Jointly Organized by IIT Guwahati and AWaDH, IIT Ropar
+              </div>
+
               <div className="flex flex-col lg:flex-row mt-8 sm:mt-16 w-full justify-between items-start lg:items-center px-4 lg:px-10">
                 {/* Date and Location */}
                 <div className="font-body space-y-4 lg:-ml-10 md:-ml-7 sm:-ml-6">
@@ -39,17 +49,32 @@ const Home = () => {
                 </div>
 
                 {/* Buttons */}
-                <div className="flex space-x-4 mt-6 lg:mt-0 mr-10">
-                  <a href="https://cmt3.research.microsoft.com/ICA2025">
-                    <button className="font-body px-6 sm:px-8 py-2 bg-[#4ECB38] text-black font-medium hover:bg-green-600 transition">
-                      Submission Link
-                    </button>
-                  </a>
-                  <a href="/ica25/registeration">
-                    <button className="font-body px-6 sm:px-8 py-2 border border-[#fff] text-white font-medium hover:bg-[#4ECB38] hover:text-black transition">
-                      Register
-                    </button>
-                  </a>
+                <div className="flex flex-col space-y-8">
+                  <div className="flex mx-auto space-x-4 mt-6 lg:mt-0 mr-10">
+                    <a href="https://cmt3.research.microsoft.com/ICA2025">
+                      <button className="font-body px-6 sm:px-8 py-2 bg-[#4ECB38] text-black font-medium hover:bg-green-600 transition">
+                        Submission Link
+                      </button>
+                    </a>
+                    <a href="/ica25/registeration">
+                      <button className="font-body px-6 sm:px-8 py-2 border border-[#fff] text-white font-medium hover:bg-[#4ECB38] hover:text-black transition">
+                        Register
+                      </button>
+                    </a>
+                  </div>
+                  <div
+                    class="flex bg-red-600 
+            p-1 font-heading 
+            mt-6 lg:mt-0 
+            mr-0 md:mr-5 lg:mr-10"
+                  >
+                    <h1
+                      class="text-white mx-auto font-medium 
+             text-base md:text-xl lg:text-2xl"
+                    >
+                      Submission Deadline: 7th April, 2025
+                    </h1>
+                  </div>
                 </div>
               </div>
             </div>
@@ -147,7 +172,7 @@ const Home = () => {
           {/* Sponsor 1 */}
           <div className="flex justify-center items-center">
             <img
-              src="satgov.png" /* Replace with your actual image path */
+              src="satgov.png" 
               alt="Ministry of Science and Technology"
               className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
             />
@@ -156,7 +181,7 @@ const Home = () => {
           {/* Sponsor 2 */}
           <div className="flex justify-center items-center">
             <img
-              src="adrio.png" /* Replace with your actual image path */
+              src="adrio.png" 
               alt="Adroitec"
               className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
             />
@@ -165,7 +190,7 @@ const Home = () => {
           {/* Sponsor 3 */}
           <div className="flex justify-center items-center">
             <img
-              src="syngenta.png" /* Replace with your actual image path */
+              src="syngenta.png" 
               alt="Syngenta Group"
               className="w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
             />
@@ -174,7 +199,7 @@ const Home = () => {
           {/* Sponsor 4 */}
           <div className="flex justify-center items-center">
             <img
-              src="iiitdd.png" /* Replace with your actual image path */
+              src="iiitdd.png" 
               alt="IIIT Delhi"
               className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
             />
@@ -183,8 +208,18 @@ const Home = () => {
           {/* Sponsor 5 */}
           <div className="flex justify-center items-center">
             <img
-              src="anw.png" /* Replace with your actual image path */
+              src="anw.png" 
               alt="Agriculture and Water Technology"
+              className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
+            />
+          </div>
+        </div>
+        <div className="flex justify-center mt-8 w-full">
+          {/* Sponsor 1 */}
+          <div className="flex justify-center items-center">
+            <img
+              src="sart.jpg" 
+              alt="SART IITG"
               className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
             />
           </div>
@@ -201,8 +236,8 @@ const Home = () => {
           {/* Sponsor 1 */}
           <div className="flex justify-center items-center">
             <img
-              src="a1.png" /* Replace with your actual image path */
-              alt="Ministry of Science and Technology"
+              src="a1.png" 
+              alt="IITG"
               className="w-24 h-24 sm:w-36 sm:h-36 lg:w-44 lg:h-44 object-contain"
             />
           </div>
@@ -210,8 +245,8 @@ const Home = () => {
           {/* Sponsor 2 */}
           <div className="flex justify-center items-center">
             <img
-              src="a2.png" /* Replace with your actual image path */
-              alt="Adroitec"
+              src="a2.png" 
+              alt="NITM"
               className="w-24 h-24 m:w-36 sm:h-36 lg:w-44 lg:h-44 object-contain"
             />
           </div>
@@ -219,8 +254,8 @@ const Home = () => {
           {/* Sponsor 3 */}
           <div className="flex justify-center items-center">
             <img
-              src="a3.png" /* Replace with your actual image path */
-              alt="Syngenta Group"
+              src="a3.png"
+              alt="NITA"
               className="w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
             />
           </div>
@@ -228,9 +263,18 @@ const Home = () => {
           {/* Sponsor 5 */}
           <div className="flex justify-center items-center">
             <img
-              src="anw.png" /* Replace with your actual image path */
+              src="anw.png"
               alt="Agriculture and Water Technology"
               className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
+            />
+          </div>
+        </div>
+        <div className="flex justify-center mt-8 w-full">
+          <div className="flex justify-center items-center">
+            <img
+              src="iitrpr.png" 
+              alt="IIT ROPAR"
+              className="w-32 h-32 sm:w-40 sm:h-40 lg:w-56 lg:h-56 object-contain"
             />
           </div>
         </div>

@@ -1,6 +1,8 @@
 import React from "react";
 
 import WorkshopChairGrid from "../components/Example";
+import WorkshopChairGrid2 from "../components/Example2";
+import WorkshopChairGrid1 from "../components/Example1";
 const Organization = () => {
   const data = [
     {
@@ -93,7 +95,8 @@ const Organization = () => {
     },
     {
       name: "Dr. Ijjada Sreenivasa Rao",
-      affiliation: "Associate Professor, GITAM School of Technology, Visakhapatnam",
+      affiliation:
+        "Associate Professor, GITAM School of Technology, Visakhapatnam",
     },
     {
       name: "Dr. A. Andrew Roobert",
@@ -105,7 +108,8 @@ const Organization = () => {
     },
     {
       name: "Dr. Venkata Ramana Murthy Oruganti",
-      affiliation: "Associate Professor, GITAM School of Technology, Visakhapatnam",
+      affiliation:
+        "Associate Professor, GITAM School of Technology, Visakhapatnam",
     },
     {
       name: "Dr. Min Chan Hu",
@@ -129,7 +133,8 @@ const Organization = () => {
     },
     {
       name: "Dr. Urvinder Singh",
-      affiliation: "Associate Professor, Thapar Institute of Engineering & Technology, Patiala, India",
+      affiliation:
+        "Associate Professor, Thapar Institute of Engineering & Technology, Patiala, India",
     },
     {
       name: "Dr. Supreet Singh",
@@ -160,7 +165,7 @@ const Organization = () => {
       affiliation: "Postdoc, IIT Ropar, India",
     },
   ];
-  
+
   const patrons = [
     {
       name: "Prof Devendra Jalihal",
@@ -247,7 +252,7 @@ const Organization = () => {
     {
       name: "Prof. Sudip Mitra",
       title: "IIT Guwahati",
-      image: "sudo.jpeg",
+      image: "sudo.jpg",
       scholarUrl:
         "https://scholar.google.co.in/citations?user=ByYRbmgAAAAJ&hl=en",
 
@@ -310,6 +315,14 @@ const Organization = () => {
   // ];
   const GeneralChair = [
     {
+      name: "Athula Ginige",
+      title: "Western Sydney University, Australia",
+      image: "athula.jpeg",
+      scholarUrl:
+        "https://scholar.google.com.au/citations?user=A5hYIEEAAAAJ&hl=en",
+      linkedUrl: "https://www.linkedin.com/in/athula/?originalSubdomain=au",
+    },
+    {
       name: "Sanginario Alessandro",
       title: "Researcher, eLiONS Laboratory",
       image: "sanginario.png",
@@ -326,14 +339,7 @@ const Organization = () => {
       linkedUrl:
         "https://www.linkedin.com/in/gaurav-trivedi-3b7a393/?originalSubdomain=in", // Replace with actual image path
     },
-    {
-      name: "Athula Ginige",
-      title: "Western Sydney University, Australia",
-      image: "athula.jpeg",
-      scholarUrl:
-        "https://scholar.google.com.au/citations?user=A5hYIEEAAAAJ&hl=en",
-      linkedUrl: "https://www.linkedin.com/in/athula/?originalSubdomain=au",
-    },
+    ,
   ];
   const TechnicalProgramChair1 = [
     {
@@ -491,6 +497,24 @@ const Organization = () => {
       image: "anamika.jpg",
       scholarUrl: "https://scholar.google.co.in/",
       linkedUrl: "https://www.linkedin.com/in/", // Replace with actual image path
+    },
+    {
+      name: "Dr. Aryabratta Sahu",
+      title: "IIT Guwahati",
+      image: "aryabartta.jpeg",
+      scholarUrl:
+        "https://scholar.google.co.in/citations?user=apzckLUAAAAJ&hl=en",
+      linkedUrl: "https://www.linkedin.com/in/aryabartta-sahu-624563b/", // Replace with actual image path
+    },
+  ];
+  const WorkShopChair2 = [
+    {
+      name: "Dr. Dhritiman Saha",
+      title: " ICAR-CIPHET, Ludhiana",
+      linkedUrl:
+        "https://www.linkedin.com/in/dr-dhritiman-saha-190193129/?originalSubdomain=in",
+      scholarUrl: "https://scholar.google.ca/citations?user=5IHaAUEAAAAJ&hl=en",
+      image: "dhritiman.jpg",
     },
   ];
   const Registration = [
@@ -665,7 +689,7 @@ const Organization = () => {
     {
       name: "Dr. B.R. Phukan",
       title: "CHF Pasighat, Central Agricultural University",
-      image: " ",
+      image: "brp.jpg",
       scholarUrl: "https://scholar.google.co.in/ ",
       linkedUrl:
         "https://www.linkedin.com/in/b-r-phukan-56ba4b136/?originalSubdomain=in",
@@ -673,13 +697,14 @@ const Organization = () => {
   ];
   const Agriculture2 = [
     {
-      name:"Dr. Sukhen Chandra Das",
-      title:"College of Agriculture, Tripura",
-      image:"sukhen.jpeg",
-      scholarUrl:"https://scholar.google.co.in/",
-      linkedUrl:"https://www.linkedin.com/in/dr-sukhen-chandra-das-14aa6736/?originalSubdomain=in"
-    }
-  ]
+      name: "Dr. Sukhen Chandra Das",
+      title: "College of Agriculture, Tripura",
+      image: "sukhen.jpg",
+      scholarUrl: "https://scholar.google.co.in/",
+      linkedUrl:
+        "https://www.linkedin.com/in/dr-sukhen-chandra-das-14aa6736/?originalSubdomain=in",
+    },
+  ];
   const Steering = [
     {
       name: "Dr. Mukesh Kumar Saini",
@@ -731,7 +756,7 @@ const Organization = () => {
           className="flex items-center h-full" // Use h-full to occupy 100% of the section's height
         >
           {/* Content */}
-          <div className="mx-4 mt-10 sm:mx-8 lg:ml-20 lg:mt-32 w-full">
+          <div className="mx-4 mt-10 sm:mx-8 lg:ml-20 lg:mt-32 w-full px-4 sm:px-6">
             <h3 className="font-heading text-3xl sm:text-4xl lg:text-6xl font-semibold text-white">
               Our
               <span className="font-semibold text-[#4ECB38] ">
@@ -763,7 +788,7 @@ const Organization = () => {
           <span className="text-[#4ECB38]">Patrons</span>
         </h2>
       </div>
-      <WorkshopChairGrid chairs={patrons} />
+      <WorkshopChairGrid2 chairs={patrons} />
       <div className="  px-4 pt-8 sm:px-6">
         {" "}
         <h2 className=" my-auto text-3xl ml-8 sm:ml-16 sm:text-4xl md:text-5xl font-heading font-semibold   text-black">
@@ -777,7 +802,7 @@ const Organization = () => {
           <span className="text-[#4ECB38]">Technical Program Chairs</span>
         </h2>
       </div>
-      <WorkshopChairGrid chairs={TechnicalProgramChair1} />
+      <WorkshopChairGrid2 chairs={TechnicalProgramChair1} />
       <WorkshopChairGrid chairs={TechnicalProgramChair2} />
       <div className="  px-4 pt-8 sm:px-6">
         {" "}
@@ -788,7 +813,7 @@ const Organization = () => {
       <WorkshopChairGrid chairs={AdvisoryData} />
       <WorkshopChairGrid chairs={AdvisoryData2} />
       <WorkshopChairGrid chairs={AdvisoryData3} />
-      <WorkshopChairGrid chairs={AdvisoryData4} />
+      <WorkshopChairGrid2 chairs={AdvisoryData4} />
       {/* <div className="  px-4 pt-8 sm:px-6">
         {" "}
         <h2 className=" my-auto text-3xl ml-8 sm:ml-16 sm:text-4xl md:text-5xl font-heading font-semibold   text-black">
@@ -803,7 +828,7 @@ const Organization = () => {
         </h2>
       </div>
       <WorkshopChairGrid chairs={PublicityChair} />
-      <WorkshopChairGrid chairs={PublicityChair2} />
+      <WorkshopChairGrid1 chairs={PublicityChair2} />
       <div className="  px-4 pt-8 sm:px-6">
         {" "}
         <h2 className=" my-auto text-3xl ml-8 sm:ml-16 sm:text-4xl md:text-5xl font-heading font-semibold   text-black">
@@ -818,7 +843,7 @@ const Organization = () => {
         </h2>
       </div>
       <WorkshopChairGrid chairs={DemoChair} />
-      <WorkshopChairGrid chairs={DemoChair2} />
+      <WorkshopChairGrid1 chairs={DemoChair2} />
       <div className="  px-4 pt-8 sm:px-6">
         {" "}
         <h2 className=" my-auto text-3xl ml-8 sm:ml-16 sm:text-4xl md:text-5xl font-heading font-semibold   text-black">
@@ -833,7 +858,7 @@ const Organization = () => {
         </h2>
       </div>
       <WorkshopChairGrid chairs={AwardChairs} />
-      <WorkshopChairGrid chairs={AwardChairs2} />
+      <WorkshopChairGrid1 chairs={AwardChairs2} />
       <div className="  px-4 pt-8 sm:px-6">
         {" "}
         <h2 className=" my-auto text-3xl ml-8 sm:ml-16 sm:text-4xl md:text-5xl font-heading font-semibold   text-black">
@@ -841,6 +866,7 @@ const Organization = () => {
         </h2>
       </div>
       <WorkshopChairGrid chairs={WorkShopChair} />
+      <WorkshopChairGrid1 chairs={WorkShopChair2} />
       <div className="  px-4 pt-8 sm:px-6">
         {" "}
         <h2 className=" my-auto text-3xl ml-8 sm:ml-16 sm:text-4xl md:text-5xl font-heading font-semibold   text-black">
@@ -850,14 +876,14 @@ const Organization = () => {
         </h2>
       </div>
       <WorkshopChairGrid chairs={Sponsorship} />
-      <WorkshopChairGrid chairs={Sponsorship2} />
+      <WorkshopChairGrid1 chairs={Sponsorship2} />
       <div className="  px-4 pt-8 sm:px-6">
         {" "}
         <h2 className=" my-auto text-3xl ml-8 sm:ml-16 sm:text-4xl md:text-5xl font-heading font-semibold   text-black">
           <span className="text-[#4ECB38]">Innovation Chairs</span>
         </h2>
       </div>
-      <WorkshopChairGrid chairs={Innovation} />
+      <WorkshopChairGrid2 chairs={Innovation} />
       <div className="  px-4 pt-8 sm:px-6">
         {" "}
         <h2 className=" my-auto text-3xl ml-8 sm:ml-16 sm:text-4xl md:text-5xl font-heading font-semibold   text-black">
@@ -865,15 +891,15 @@ const Organization = () => {
         </h2>
       </div>
       <WorkshopChairGrid chairs={Agriculture} />
-      <WorkshopChairGrid chairs={Agriculture2} />
+      <WorkshopChairGrid1 chairs={Agriculture2} />
       <div className="  px-4 pt-8 sm:px-6">
         {" "}
         <h2 className=" my-auto text-3xl ml-8 sm:ml-16 sm:text-4xl md:text-5xl font-heading font-semibold   text-black">
           <span className="text-[#4ECB38]">Steering Committee Member</span>
         </h2>
       </div>
-      <WorkshopChairGrid chairs={Steering} />
       <WorkshopChairGrid chairs={Steering2} />
+      <WorkshopChairGrid1 chairs={Steering} />
       <div className="  px-4 pt-8 sm:px-6">
         {" "}
         <h2 className=" my-auto text-3xl ml-8 sm:ml-16 sm:text-4xl md:text-5xl font-heading font-semibold   text-black">
@@ -881,24 +907,32 @@ const Organization = () => {
         </h2>
       </div>
       <div className="overflow-x-auto px-44 mt-6">
-      <table className="min-w-full border-collapse border border-gray-300 text-left">
-        <thead>
-          <tr>
-            <th className="border border-gray-300 px-4 py-2 bg-transparent">Name and Surname</th>
-            <th className="border border-gray-300 px-4 py-2 bg-transparent">Affiliation and its location</th>
-          </tr>
-        </thead>
-        <tbody>
-          {data.map((item, index) => (
-            <tr key={index} className="hover:bg-gray-100">
-              <td className="border border-gray-300 px-4 py-2 bg-transparent">{item.name}</td>
-              <td className="border border-gray-300 px-4 py-2 bg-transparent">{item.affiliation}</td>
+        <table className="min-w-full border-collapse border border-gray-300 text-left">
+          <thead>
+            <tr>
+              <th className="border border-gray-300 px-4 py-2 bg-transparent">
+                Name and Surname
+              </th>
+              <th className="border border-gray-300 px-4 py-2 bg-transparent">
+                Affiliation and its location
+              </th>
             </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  );
+          </thead>
+          <tbody>
+            {data.map((item, index) => (
+              <tr key={index} className="hover:bg-gray-100">
+                <td className="border border-gray-300 px-4 py-2 bg-transparent">
+                  {item.name}
+                </td>
+                <td className="border border-gray-300 px-4 py-2 bg-transparent">
+                  {item.affiliation}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      );
     </div>
   );
 };

@@ -53,7 +53,7 @@ const VenuePage = () => {
             </h3>
 
             {/* Content Section */}
-            <div className="flex flex-col mt-8 sm:mt-16 lg:flex-row w-full justify-between items-start lg:items-center px-2 sm:px-4 lg:px-10">
+            <div className="flex flex-col mt-8 sm:mt-6 lg:flex-row w-full justify-between items-start lg:items-center px-2 sm:px-4 lg:px-10">
               <div className="font-body space-y-4">
                 <div className="flex items-center text-sm sm:text-base lg:text-lg text-white">
                   <p className="text-sm sm:text-lg md:text-xl w-full lg:w-2/4">

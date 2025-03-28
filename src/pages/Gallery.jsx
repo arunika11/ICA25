@@ -7,7 +7,7 @@ const Gallery = () => {
     "233.jpg",
     "234.jpg",
     "235.jpg",
-    "236.jpg",
+    "236.JPG",
     "237.jpg",
     "238.jpg",
   ];

@@ -35,7 +35,7 @@ const SponsorShipPage = () => {
       </section>
       <div className="px-4 sm:px-8 md:px-16 lg:px-24 py-8 bg-white text-gray-800">
         <section className="mb-12">
-          <h2 className="font-heading text-3xl sm:text-3xl lg:text-5xl font-semibold mb-8">
+          <h2 className="font-heading text-3xl sm:text-3xl lg:text-5xl font-semibold mb-8 pt-16">
             Call for Sponsors
           </h2>
           <p className="font-body text-base sm:text-lg leading-relaxed mb-4">
@@ -115,7 +115,17 @@ const SponsorShipPage = () => {
             </div>
           </p>
           <ul className="text-[#323232] text-lg font-normal font-['Work Sans'] leading-snug list-disc pl-6 space-y-2">
-            <li>Diamond Sponsorship - INR 2,00,000</li>
+            <li className="font-bold text-2xl">Platinum Sponsorship - INR (3,00,000 and above)
+            </li>
+            <li>Premium brand visibility across all conference materials and platforms.
+            </li>
+            <li>
+            Exclusive speaking slot during a high-profile session.
+            </li>
+            <li>Dedicated exhibition space and priority placement.
+            </li>
+            <li>Five complimentary event registrations.</li>
+            <li className="font-bold text-2xl" >Diamond Sponsorship - INR 2,00,000</li>
             <li>Provision of a dedicated exhibition stall.</li>
             <li>
               Inclusion of industry-specific infographics in the registration
@@ -129,14 +139,14 @@ const SponsorShipPage = () => {
               (duration: 15 minutes).
             </li>
             <li>Three complimentary event registrations.</li>
-            <li>Gold Sponsorship - INR 1,00,000</li>
+            <li className="font-bold text-2xl">Gold Sponsorship - INR 1,00,000</li>
             <li>Provision of a dedicated exhibition stall.</li>
             <li>
               An opportunity for an Industrial Talk by the representative
               (duration: 10 minutes).
             </li>
             <li>Two complimentary event registrations.</li>
-            <li>Silver Sponsorship - INR 50,000</li>
+            <li className="font-bold text-2xl">Silver Sponsorship - INR 50,000</li>
             <li>Provision of a dedicated exhibition stall.</li>
             <li>One complimentary event registration.</li>
           </ul>

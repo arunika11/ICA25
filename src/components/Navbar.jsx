@@ -53,9 +53,9 @@ const Navbar = () => {
         <a href="/ica25">
           <div className="flex items-center">
             <img
-              src="springer-logo.png"
+              src="image.png"
               alt="Springer Logo"
-              className="h-8 sm:h-10 mr-4"
+              className="h-8 sm:h-16 mr-4"
             />
           </div>
         </a>
@@ -107,7 +107,7 @@ const Navbar = () => {
               "/ica25/registeration"
             )}`}
           >
-            Registeration
+            Registration
           </a>
           <a
             href="/ica25/gallery"
@@ -186,8 +186,10 @@ const Navbar = () => {
                   "/ica25/registeration"
                 )}`}
               >
-                Registeration
+                Registration
               </a>
+            </li>
+            <li>
               <a
             href="/ica25/gallery"
             className={`font-body hover:text-[#4ECB38] ${isActive(
