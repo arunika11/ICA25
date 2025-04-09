@@ -30,7 +30,7 @@ const Home = () => {
             text-end text-white
             text-base md:text-xl lg:text-3xl"
               >
-                Jointly Organized by IIT Guwahati and AWaDH, IIT Ropar
+                Jointly Organized by IIT Guwahati, NIT Arunachal and AWaDH, IIT Ropar
               </div>
 
               <div className="flex flex-col lg:flex-row mt-8 sm:mt-16 w-full justify-between items-start lg:items-center px-4 lg:px-10">

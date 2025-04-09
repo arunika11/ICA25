@@ -371,7 +371,7 @@ const Organization = () => {
     },
     {
       name: "Dr. Dhananjay Singh",
-      title: "Professor, Saint Louis University, MO, USA",
+      title: "Professor, Penn State College of IST, Pennsylvania",
       image: "dhanan.png",
       scholarUrl:
         "https://scholar.google.com/citations?user=vbIWIhUAAAAJ&hl=en",

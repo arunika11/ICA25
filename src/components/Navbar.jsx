@@ -53,7 +53,7 @@ const Navbar = () => {
         <a href="/ica25">
           <div className="flex items-center">
             <img
-              src="image.png"
+              src="logofinal.png"
               alt="Springer Logo"
               className="h-8 sm:h-16 mr-4"
             />
