@@ -19,14 +19,12 @@ const SponsorShipPage = () => {
         id="home"
         className="relative bg-cover bg-center"
         style={{
-          height: "60vh", // Background height
+          height: "60vh",
           backgroundImage: `url('calls.png')`,
         }}
       >
         <div className="flex items-center h-full">
-          {/* Content */}
           <div className="mx-4 mt-10 sm:mx-8 lg:ml-20 lg:mt-32 w-full px-4 sm:px-6">
-            {/* Heading */}
             <h3 className="font-heading text-3xl sm:text-4xl lg:text-6xl font-semibold text-white">
               <span className="font-semibold text-[#4ECB38]">Sponsors</span>
             </h3>
@@ -206,53 +204,41 @@ const SponsorShipPage = () => {
         </section>
         <section>
         <div className="min-h-[60vh] bg-white flex flex-col justify-center py-8 lg:py-16">
-        {/* Section Title */}
         <h2 className="font-heading text-3xl md:text-5xl font-semibold">
           Previous <span className="text-[#4ECB38]">Sponsors</span>
         </h2>
-
-        {/* Logos Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-8 mt-8 w-full">
-          {/* Sponsor 1 */}
           <div className="flex justify-center items-center">
             <img
-              src="satgov.png" /* Replace with your actual image path */
+              src="satgov.png"
               alt="Ministry of Science and Technology"
               className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
             />
           </div>
-
-          {/* Sponsor 2 */}
           <div className="flex justify-center items-center">
             <img
-              src="adrio.png" /* Replace with your actual image path */
+              src="adrio.png"
               alt="Adroitec"
               className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
             />
           </div>
-
-          {/* Sponsor 3 */}
           <div className="flex justify-center items-center">
             <img
-              src="syngenta.png" /* Replace with your actual image path */
+              src="syngenta.png"
               alt="Syngenta Group"
               className="w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
             />
           </div>
-
-          {/* Sponsor 4 */}
           <div className="flex justify-center items-center">
             <img
-              src="iiitd.png" /* Replace with your actual image path */
+              src="iiitd.png"
               alt="IIIT Delhi"
               className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
             />
           </div>
-
-          {/* Sponsor 5 */}
           <div className="flex justify-center items-center">
             <img
-              src="anw.png" /* Replace with your actual image path */
+              src="anw.png"
               alt="Agriculture and Water Technology"
               className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
             />

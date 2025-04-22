@@ -29,7 +29,6 @@ const Navbar = () => {
   // Utility function to apply active class
   const isActive = (path) =>
     "/ica25" + location.pathname === path ? "text-[#4ECB38]" : "";
-  console.log("/ica25"+location.pathname);
 
 
   // Determine the navbar background style based on route and scroll
