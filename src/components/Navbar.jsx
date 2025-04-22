@@ -25,13 +25,9 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
-  // Utility function to apply active class
   const isActive = (path) =>
     "/ica25" + location.pathname === path ? "text-[#4ECB38]" : "";
 
-
-  // Determine the navbar background style based on route and scroll
   const getBackgroundStyle = () => {
     if (location.pathname === "/") {
       return isSticky
@@ -58,7 +54,6 @@ const Navbar = () => {
             />
           </div>
         </a>
-        {/* Desktop Menu */}
         <nav className="hidden lg:flex space-x-6">
           <a
             href="/ica25"
@@ -117,12 +112,10 @@ const Navbar = () => {
             Gallery
           </a>
         </nav>
-        {/* Hamburger Icon */}
         <button className="lg:hidden text-2xl" onClick={toggleMenu}>
           {isMenuOpen ? <HiX /> : <HiMenu />}
         </button>
       </div>
-      {/* Mobile Menu */}
       {isMenuOpen && (
         <nav className="lg:hidden bg-black bg-opacity-90 absolute w-full top-24 left-0 z-30">
           <ul className="flex flex-col items-center space-y-4 py-4 text-white">

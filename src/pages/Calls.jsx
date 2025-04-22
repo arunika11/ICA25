@@ -21,21 +21,17 @@ const CallsPage = () => {
         id="home"
         className="relative bg-cover bg-center"
         style={{
-          height: "70vh", // Background height
+          height: "70vh",
           backgroundImage: `url('calls.png')`,
         }}
       >
         <div className="flex items-center h-full">
-          {/* Content */}
           <div className="mx-4 mt-10 sm:mx-8 lg:ml-20 lg:mt-32 w-full px-4 sm:px-6">
-            {/* Heading */}
             <h3 className="font-heading text-3xl sm:text-4xl lg:text-6xl font-semibold text-white">
               <span className="font-semibold text-[#4ECB38]"> Calls</span>
             </h3>
 
-            {/* Main Content Area */}
             <div className="flex flex-col lg:flex-row mt-4 sm:mt-6 lg:mt-8 w-full justify-between items-start lg:items-center">
-              {/* Left Side Content */}
               <div className="font-body space-y-6 lg:space-y-4 lg:w-3/4">
                 <div className="text-sm sm:text-lg text-white">
                   <p className="text-base sm:text-lg md:text-xl leading-relaxed">
@@ -51,7 +47,6 @@ const CallsPage = () => {
                 </div>
               </div>
 
-              {/* Right Side Button */}
               <div className="flex items-center justify-start lg:justify-end mt-6 lg:mt-0 w-full lg:w-1/4">
                <a href="https://cmt3.research.microsoft.com/ICA2025"> <button
                   style={{ height: "40px" }}
@@ -82,7 +77,6 @@ const CallsPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 mx-auto gap-40 w-5/6">
           {deadlines.map((item, index) => (
             <div key={index} className="flex flex-col items-start text-left">
-              {/* Icon */}
               <div className="bg-gray-800 p-3 rounded-sm flex items-center justify-center  ">
                 <svg
                   width="36"
@@ -105,10 +99,8 @@ const CallsPage = () => {
                 </svg>
               </div>
 
-              {/* Horizontal Line */}
               <div className="w-full border-t border-gray-300 mb-4"></div>
 
-              {/* Text */}
               <h3 className="text-lg font-semibold text-[#4ECB38] mb-2">
                 {item.title}
               </h3>
@@ -118,7 +110,6 @@ const CallsPage = () => {
         </div>
       </div>
       <div className="px-4 sm:px-8 md:px-16 lg:px-24 py-8 bg-white text-gray-800">
-        {/* Regular Papers Section */}
         <section className="mb-12">
           <h2 className="font-heading text-2xl sm:text-3xl lg:text-4xl font-semibold mb-4">
             Regular Papers
@@ -154,7 +145,6 @@ const CallsPage = () => {
           </ul>
         </section>
 
-        {/* Workshops/Tutorials/Demos Section */}
         <section>
           <h2 className="font-heading text-2xl sm:text-3xl lg:text-4xl font-semibold mb-4">
             Workshops/Tutorials/Demos

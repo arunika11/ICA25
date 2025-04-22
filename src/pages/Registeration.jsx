@@ -11,7 +11,6 @@ const RegisterationPage = () => {
           backgroundImage: `url('5.jpg')`,
         }}
       >
-        {/* Black Overlay */}
         <div
           className="absolute inset-0 bg-black bg-opacity-70"
           style={{ zIndex: 1 }}
@@ -25,8 +24,6 @@ const RegisterationPage = () => {
           </div>
         </div>
       </section>
-
-      {/* Registration Details Section */}
       <section className="z-40 font-body w-full px-16 flex flex-col sm:mt-16 lg:flex-row items-center justify-center lg:items-center sm:px-4 lg:px-24">
         <div className="w-full max-w-4xl bg-white rounded-lg p-4">
           <h4 className="font-heading text-2xl py-6 sm:text-3xl lg:text-4xl text-center font-semibold">
@@ -36,7 +33,6 @@ const RegisterationPage = () => {
 
           <div className="overflow-x-auto">
             <table className="w-full border-collapse border border-gray-400 text-left">
-              {/* Indian Participants */}
               <thead>
                 <tr className=" text-gray-900">
                   <th
@@ -68,7 +64,6 @@ const RegisterationPage = () => {
                 </tr>
               </tbody>
 
-              {/* International Participants */}
               <thead>
                 <tr className=" text-gray-900">
                   <th
@@ -108,7 +103,6 @@ const RegisterationPage = () => {
           </h4>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse border border-gray-400 text-left">
-              {/* Indian Participants */}
               <tbody>
                 <tr>
                   <td className="border border-gray-400 px-4 py-3 font-medium">

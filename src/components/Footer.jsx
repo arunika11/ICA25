@@ -1,12 +1,11 @@
-import { ReactComponent as MailIcon } from '../assets/mail.svg'; // Replace with your mail SVG file
-import { ReactComponent as PhoneIcon } from '../assets/phone.svg'; // Replace with your phone SVG file
-import { ReactComponent as LocationIcon } from '../assets/location.svg'; // Replace with your location SVG file
+import { ReactComponent as MailIcon } from '../assets/mail.svg'; 
+import { ReactComponent as PhoneIcon } from '../assets/phone.svg';
+import { ReactComponent as LocationIcon } from '../assets/location.svg';
 
 const Footer = () => {
   return (
     <footer className="bg-[#333333] text-white py-12 px-20">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
-        {/* Left Section */}
         <div>
           <h3 className="font-heading w-3/4 text-2xl font-bold text-[#4ECB38]">
             International Conference of Agriculture 2025
@@ -17,8 +16,6 @@ const Footer = () => {
             to Kaziranga National Park.
           </p>
         </div>
-
-        {/* Middle Section */}
         <div className='lg:ml-44 md:ml-0 sm:ml-'>
           <h3 className="text-xl font-bold">Quick Links</h3>
           <div className="flex flex-wrap gap-11 mt-6">
@@ -63,8 +60,6 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-
-        {/* Right Section */}
         <div className='lg:ml-20 md:ml-0 sm:ml-0'>
           <h3 className="font-heading text-xl font-bold">Contact Us</h3>
           <ul className="mt-6 space-y-4 text-base">

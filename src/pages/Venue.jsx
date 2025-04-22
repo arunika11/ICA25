@@ -39,20 +39,17 @@ const VenuePage = () => {
           backgroundImage: `url('5.jpg')`,
         }}
       >
-        {/* Black Overlay */}
         <div
           className="absolute inset-0 bg-black bg-opacity-70"
           style={{ zIndex: 1 }}
         ></div>
 
-        {/* Flex Content */}
         <div className="flex items-center h-full">
           <div className="z-40 mx-4 mt-10 sm:mx-8 lg:ml-20 lg:mt-40 w-full px-4">
             <h3 className="font-heading text-3xl sm:text-4xl lg:text-6xl font-semibold text-white">
               <span className="font-semibold text-[#4ECB38]"> Venue</span>
             </h3>
 
-            {/* Content Section */}
             <div className="flex flex-col mt-8 sm:mt-6 lg:flex-row w-full justify-between items-start lg:items-center px-2 sm:px-4 lg:px-10">
               <div className="font-body space-y-4">
                 <div className="flex items-center text-sm sm:text-base lg:text-lg text-white">
@@ -74,7 +71,6 @@ const VenuePage = () => {
         </div>
       </section>
 
-      {/* Venue Cards */}
       <div className="flex flex-col space-y-6 mt-8 px-4 lg:px-10">
         {text.map((item, index) => (
           <VenueCard

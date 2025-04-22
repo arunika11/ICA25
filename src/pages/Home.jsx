@@ -5,7 +5,6 @@ const Home = () => {
   return (
     <div>
       <div className="min-h-screen font-sans overflow-hidden">
-        {/* Hero Section */}
         <section
           id="home"
           className="relative bg-cover bg-center min-h-screen"
@@ -14,7 +13,6 @@ const Home = () => {
           }}
         >
           <div className="min-h-screen flex items-center">
-            {/* Content */}
             <div className="mx-4 mt-28 sm:mx-8 lg:ml-20 lg:mt-44 w-full">
               <h2 className="font-heading text-xl sm:text-3xl font-semibold text-white">
                 3rd International Conference on
@@ -34,7 +32,6 @@ const Home = () => {
               </div>
 
               <div className="flex flex-col lg:flex-row mt-8 sm:mt-16 w-full justify-between items-start lg:items-center px-4 lg:px-10">
-                {/* Date and Location */}
                 <div className="font-body space-y-4 lg:-ml-10 md:-ml-7 sm:-ml-6">
                   <div className="flex items-center text-sm sm:text-lg text-white">
                     <FaCalendarAlt className="mr-2 sm:mr-3 text-[#4ECB38]" />
@@ -48,7 +45,6 @@ const Home = () => {
                   </div>
                 </div>
 
-                {/* Buttons */}
                 <div className="flex flex-col space-y-8">
                   <div className="flex mx-auto space-x-4 mt-6 lg:mt-0 mr-10">
                     <a href="https://cmt3.research.microsoft.com/ICA2025">
@@ -82,7 +78,6 @@ const Home = () => {
         </section>
       </div>
       <div className="flex flex-col lg:flex-row items-center mt-28 lg:items-start justify-between p-6 lg:p-16 min-h-[90vh]">
-        {/* Left Text Section */}
         <div className="lg:w-1/2 space-y-6 mx-auto">
           <h2 className="font-heading text-5xl font-semibold">
             About the <span className="text-[#4ECB38]">Event</span>
@@ -104,7 +99,6 @@ const Home = () => {
           </p>
         </div>
 
-        {/* Right Image Section */}
         <div className="lg:w-1/2 mt-6 lg:mt-0 lg:pl-10">
           <img
             src="5.jpg"
@@ -118,9 +112,7 @@ const Home = () => {
           Conference <span className="text-[#4ECB38]">Themes</span>
         </h2>
 
-        {/* Themes Container */}
         <div className="flex flex-wrap justify-between mt-16">
-          {/* Theme 1 */}
           <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
             <h3 className="text-xl font-semibold">AI/ML for Agriculture</h3>
             <p className="font-body text-lg leading-relaxed text-gray-300 mt-2">
@@ -130,7 +122,6 @@ const Home = () => {
             </p>
           </div>
 
-          {/* Theme 2 */}
           <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
             <h3 className="text-xl font-semibold">Remote Sensing</h3>
             <p className=" font-body text-lg leading-relaxed text-gray-300 mt-2">
@@ -140,7 +131,6 @@ const Home = () => {
             </p>
           </div>
 
-          {/* Theme 3 */}
           <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
             <h3 className="text-xl font-semibold">Precision Agriculture</h3>
             <p className=" font-body text-lg leading-relaxed text-gray-300 mt-2">
@@ -150,7 +140,6 @@ const Home = () => {
             </p>
           </div>
 
-          {/* Theme 4 */}
           <div className="w-full sm:w-1/2 lg:w-1/4 p-4">
             <h3 className=" font-body text-xl font-semibold">IOT</h3>
             <p className="text-lg leading-relaxed text-gray-300 mt-2">
@@ -162,14 +151,11 @@ const Home = () => {
         </div>
       </div>
       <div className="min-h-[60vh] bg-white flex flex-col justify-center p-8 lg:p-16">
-        {/* Section Title */}
         <h2 className="font-heading text-3xl md:text-5xl font-semibold">
           Our <span className="text-[#4ECB38]">Sponsors</span>
         </h2>
 
-        {/* Logos Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-8 mt-8 w-full">
-          {/* Sponsor 1 */}
           <div className="flex justify-center items-center">
             <img
               src="satgov.png" 
@@ -178,7 +164,6 @@ const Home = () => {
             />
           </div>
 
-          {/* Sponsor 2 */}
           <div className="flex justify-center items-center">
             <img
               src="adrio.png" 
@@ -187,7 +172,6 @@ const Home = () => {
             />
           </div>
 
-          {/* Sponsor 3 */}
           <div className="flex justify-center items-center">
             <img
               src="syngenta.png" 
@@ -196,7 +180,6 @@ const Home = () => {
             />
           </div>
 
-          {/* Sponsor 4 */}
           <div className="flex justify-center items-center">
             <img
               src="iiitdd.png" 
@@ -205,7 +188,6 @@ const Home = () => {
             />
           </div>
 
-          {/* Sponsor 5 */}
           <div className="flex justify-center items-center">
             <img
               src="anw.png" 
@@ -215,7 +197,6 @@ const Home = () => {
           </div>
         </div>
         <div className="flex justify-center mt-8 w-full">
-          {/* Sponsor 1 */}
           <div className="flex justify-center items-center">
             <img
               src="sart.jpg" 
@@ -226,14 +207,11 @@ const Home = () => {
         </div>
       </div>
       <div className="min-h-[60vh] bg-white flex flex-col justify-center p-8 lg:p-16">
-        {/* Section Title */}
         <h2 className="font-heading text-3xl md:text-5xl font-semibold">
           Academic <span className="text-[#4ECB38]">Partners</span>
         </h2>
 
-        {/* Logos Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-16 w-full">
-          {/* Sponsor 1 */}
           <div className="flex justify-center items-center">
             <img
               src="a1.png" 
@@ -242,7 +220,6 @@ const Home = () => {
             />
           </div>
 
-          {/* Sponsor 2 */}
           <div className="flex justify-center items-center">
             <img
               src="a2.png" 
@@ -251,7 +228,6 @@ const Home = () => {
             />
           </div>
 
-          {/* Sponsor 3 */}
           <div className="flex justify-center items-center">
             <img
               src="a3.png"
@@ -260,7 +236,6 @@ const Home = () => {
             />
           </div>
 
-          {/* Sponsor 5 */}
           <div className="flex justify-center items-center">
             <img
               src="anw.png"
