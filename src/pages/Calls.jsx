@@ -7,7 +7,7 @@ const CallsPage = () => {
     },
     {
       title: "Acceptance Notification",
-      date: "25th Apr 2025",
+      date: "27th Apr 2025",
     },
     {
       title: "Camera Ready Submission",

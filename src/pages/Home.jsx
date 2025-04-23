@@ -68,7 +68,7 @@ const Home = () => {
                       class="text-white mx-auto font-medium 
              text-base md:text-xl lg:text-2xl"
                     >
-                      Submission Deadline: 7th April, 2025
+                      Result Announcement: 27th April, 2025
                     </h1>
                   </div>
                 </div>
