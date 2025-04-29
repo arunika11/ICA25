@@ -30,7 +30,7 @@ const Organization = () => {
       affiliation: "Associate Professor, IIT Guwahati",
     },
     {
-      name: "Dr. Chayan Bawal",
+      name: "Dr. Chayan Bhawal",
       affiliation: "Assistant Professor, IIT Guwahati",
     },
     {
@@ -574,7 +574,7 @@ const Organization = () => {
   ];
   const DemoChair2 = [
     {
-      name: "Chayan Bawal",
+      name: "Chayan Bhawal",
       title: "IIT Guwahati",
       image: "chayan.jpg",
       scholarUrl:

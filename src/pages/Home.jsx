@@ -68,7 +68,7 @@ const Home = () => {
                       class="text-white mx-auto font-medium 
              text-base md:text-xl lg:text-2xl"
                     >
-                      Result Announcement: 27th April, 2025
+                      Result Announcement: 30th April, 2025
                     </h1>
                   </div>
                 </div>
