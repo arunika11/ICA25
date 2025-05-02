@@ -1,5 +1,6 @@
 import React from "react";
 import { FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
+import Speakers from "../components/Speakers";
 
 const Home = () => {
   return (
@@ -77,6 +78,7 @@ const Home = () => {
           </div>
         </section>
       </div>
+       
       <div className="flex flex-col lg:flex-row items-center mt-28 lg:items-start justify-between p-6 lg:p-16 min-h-[90vh]">
         <div className="lg:w-1/2 space-y-6 mx-auto">
           <h2 className="font-heading text-5xl font-semibold">
@@ -107,6 +109,7 @@ const Home = () => {
           />
         </div>
       </div>
+      <Speakers/>
       <div className="bg-[#333333] text-white p-8 lg:p-16 min-h-[60vh]">
         <h2 className="font-heading text-5xl font-semibold ">
           Conference <span className="text-[#4ECB38]">Themes</span>
