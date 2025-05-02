@@ -28,7 +28,7 @@ const RegisterationPage = () => {
         <div className="w-full max-w-4xl bg-white rounded-lg p-4">
           <h4 className="font-heading text-2xl py-6 sm:text-3xl lg:text-4xl text-center font-semibold">
             Early Registration:{" "}
-            <span className="text-[#4ECB38]">Until 10/05/2025</span>
+            <span className="text-[#4ECB38]">Until 08/05/2025</span>
           </h4>
 
           <div className="overflow-x-auto">
