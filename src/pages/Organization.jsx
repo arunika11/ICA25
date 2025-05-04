@@ -11,7 +11,7 @@ const Organization = () => {
     },
     {
       name: "Dr. Swati Shukla",
-      affiliation: "Jaipuria Institute of Management, Lucknow, India",
+      affiliation: "VIT-AP University, Andhra Pradesh",
     },
     {
       name: "Dr. T V Kalyan",
