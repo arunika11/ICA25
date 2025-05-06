@@ -21,7 +21,7 @@ const CallsPage = () => {
         id="home"
         className="relative bg-cover bg-center"
         style={{
-          height: "70vh",
+          height: "60vh",
           backgroundImage: `url('calls.png')`,
         }}
       >
@@ -32,7 +32,7 @@ const CallsPage = () => {
             </h3>
 
             <div className="flex flex-col lg:flex-row mt-4 sm:mt-6 lg:mt-8 w-full justify-between items-start lg:items-center">
-              <div className="font-body space-y-6 lg:space-y-4 lg:w-3/4">
+              {/* <div className="font-body space-y-6 lg:space-y-4 lg:w-3/4">
                 <div className="text-sm sm:text-lg text-white">
                   <p className="text-base sm:text-lg md:text-xl leading-relaxed">
                     We are the organizers of the International Conference on
@@ -45,9 +45,9 @@ const CallsPage = () => {
                     advancements in agriculture for a better future.
                   </p>
                 </div>
-              </div>
+              </div> */}
 
-              <div className="flex items-center justify-start lg:justify-end mt-6 lg:mt-0 w-full lg:w-1/4">
+              <div className="flex items-center justify-start lg:justify-end mt-6 lg:mt-0 w-full lg:w-4/4">
                <a href="https://cmt3.research.microsoft.com/ICA2025"> <button
                   style={{ height: "40px" }}
                   className="flex items-center gap-x-4 font-body px-6 sm:px-8 py-2 bg-[#4ECB38] text-black font-medium hover:bg-green-600 transition-all duration-300"
