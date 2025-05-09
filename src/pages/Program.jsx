@@ -68,10 +68,16 @@ const ProgramPage = () => {
             { id: "112", title: "Energy Consumption Analysis for a Robotic Arm in Agricultural Applications" },
             { id: "103", title: "Swarm Robotics for Agricultural Drones: A Distributed Approach to Crop Monitoring" },
             { id: "60", title: "A Model Based Comparative Study of Agricultural Robot Navigation Systems" },
-            { id: "58", title: "Assessing applicability and adoption of robotic milking systems in small-scale dairy farms" },
+            { id: "58", title: "Assessing applicability and adoption of agriculture-centric computation technologies in Punjab: A multi-district farmer survey" },
             { id: "69", title: "Drone RCS Statistical Behaviour Analysis for Precision Agriculture Applications" },
           ]
         },
+       
+      ]
+    },{
+      day: "DAY 1 - EVENING",
+      date: "14th May, 2025, Wednesday",
+      sessions: [
         { time: "16:00 – 16:30", session: "Invited Talk 2 & Tea Break" },
         { time: "17:00 – 17:30", session: "Panel Discussion 1" },
         { time: "19:30 onward", session: "Dinner" },
@@ -116,13 +122,14 @@ const ProgramPage = () => {
             { id: "83", title: "NIR spectroscopy based non-invasive assessment of fruit ripeness" },
           ]
         },
-        { time: "16:00 – 16:30", session: "Tea Break" },
+       
       ]
     },
     {
       day: "DAY 2 - EVENING",
       date: "15th May, 2025, Thursday",
       sessions: [
+        { time: "16:00 – 16:30", session: "Tea Break" },
         {
           time: "16:30 – 17:45", 
           session: "Paper Presentations - Session 5",
