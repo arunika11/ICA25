@@ -25,142 +25,314 @@ const ProgramPage = () => {
   const scheduleData = [
     {
       day: "DAY 0",
-      date: "Evening, 13th May, 2025, Tuesday",
+      date: "13th May 2025, Tuesday",
       sessions: [
-        { time: "14:30 – 16:00", session: "Inauguration and Workshop", speaker: "Prof. Kavya" },
+        { time: "14:30 – 15:15", session: "Inauguration" },
+        {
+          time: "15:15 – 16:00",
+          session: "Workshop",
+          speaker: "Prof. Kavya Dashora, IIT Delhi",
+        },
         { time: "16:00 – 16:30", session: "Tea Break" },
-        { time: "16:30 – 17:30", session: "Workshop", speaker: "Prof. Deepankar" },
+        {
+          time: "16:30 – 17:30",
+          session: "Workshop",
+          speaker: "Prof. Dipankar Mandal, IIT Guwahati",
+        },
         { time: "19:30 onward", session: "Dinner" },
       ],
     },
     {
       day: "DAY 1 - MORNING",
-      date: "14th May, 2025, Wednesday",
+      date: "14th May 2025, Wednesday",
       sessions: [
-        { time: "09:00 – 09:45", session: "Keynote 1" },
-        { time: "09:45 – 10:30", session: "Keynote 2" },
+        {
+          time: "09:00 – 09:45",
+          session: "Keynote 1",
+          speaker: "Prof. Tomas Norton, KU Leuven, Belgium",
+        },
+        {
+          time: "09:45 – 10:30",
+          session: "Keynote 2",
+          speaker: "Prof. Danilo Demarchi, Politecnico di Torino, Italy",
+        },
         { time: "10:30 – 11:00", session: "Tea Break" },
         {
-          time: "11:00 – 12:30", 
+          time: "11:00 – 12:30",
           session: "Paper Presentations - Session 1",
           papers: [
-            { id: "27", title: "Rice Crop Disease Detection using Hybrid DenseNet with Swin Transformer" },
-            { id: "74", title: "Enhancing Agricultural Intelligence through Edge Computing and Deep Learning" },
-            { id: "31", title: "Early Disease Detection in Pearl Millet using Hyperspectral Imaging and Deep Learning" },
-            { id: "64", title: "SIPSNET: Advancing Saffron Impurity Prediction with Deep Learning" },
-            { id: "23", title: "AgriFed: A Federated Learning Approach for Privacy-Preserving Crop Disease Prediction" },
-            { id: "52", title: "Optimal Hyperspectral Band selection for Precision Agriculture using Evolutionary Algorithms" },
-          ]
+            {
+              id: "27",
+              title:
+                "Rice Crop Disease Detection using Hybrid DenseNet with Swin Transformer",
+            },
+            {
+              id: "74",
+              title:
+                "Enhancing Agricultural Intelligence: A Comparison of AI Models for Plant Disease Categorisation and Crop Yield Prediction",
+            },
+            {
+              id: "31",
+              title:
+                "Early Disease Detection in Pearl Millet Using YOLO v11 Model for Improved Agricultural Monitoring",
+            },
+            {
+              id: "64",
+              title:
+                "SIPSNET: Advancing Saffron Impurity Prediction with Majority Voting Technique",
+            },
+            {
+              id: "23",
+              title:
+                "AgriFed: A Federated Learning Approach for Scalable and Secure Crop Disease Detection",
+            },
+            {
+              id: "52",
+              title:
+                "Optimal Hyperspectral Band selection using Amended Lyrebird Optimization Algorithm",
+            },
+          ],
         },
         { time: "12:30 – 14:00", session: "Lunch Break" },
-      ]
+      ],
     },
     {
       day: "DAY 1 - AFTERNOON",
-      date: "14th May, 2025, Wednesday",
+      date: "14th May 2025, Wednesday",
       sessions: [
-        { time: "14:00 – 14:30", session: "Invited Talk 1" },
         {
-          time: "14:30 – 16:00", 
+          time: "14:00 – 14:30",
+          session: "Invited Talk 1",
+          speaker: "Prof. Kavya Dashora, IIT Delhi",
+        },
+        {
+          time: "14:30 – 16:00",
           session: "Paper Presentations - Session 2",
           papers: [
-            { id: "57", title: "Optimally Designed High-Efficiency Drone-Based Spray System for Precision Agriculture" },
-            { id: "112", title: "Energy Consumption Analysis for a Robotic Arm in Agricultural Applications" },
-            { id: "103", title: "Swarm Robotics for Agricultural Drones: A Distributed Approach to Crop Monitoring" },
-            { id: "60", title: "A Model Based Comparative Study of Agricultural Robot Navigation Systems" },
-            { id: "58", title: "Assessing applicability and adoption of agriculture-centric computation technologies in Punjab: A multi-district farmer survey" },
-            { id: "69", title: "Drone RCS Statistical Behaviour Analysis for Precision Agriculture Applications" },
-          ]
+            {
+              id: "57",
+              title:
+                "Optimally Designed High-Efficiency Drone-Based Spray System for Precision Nutrient Delivery in Agricultural Farms",
+            },
+            {
+              id: "112",
+              title:
+                "Energy Consumption Analysis for a Robotic Arm in Vertical Farming Process: An Experimental Validation",
+            },
+            {
+              id: "103",
+              title:
+                "Swarm Robotics for Agricultural Drones: A Transformative Approach to Smart Farming",
+            },
+            {
+              id: "60",
+              title:
+                "A Model Based Comparative Study for Conventional and Drone Based Farming: Case Studies from India",
+            },
+            {
+              id: "58",
+              title:
+                "Assessing applicability and adoption of agriculture-centric computation technologies in Punjab: A multi-district farmer survey",
+            },
+            {
+              id: "69",
+              title:
+                "Drone RCS Statistical Behaviour and its Implications for Agriculture Drones Air Traffic Management",
+            },
+          ],
         },
-       
-      ]
-    },{
+        { time: "16:00 – 16:30", session: "Tea Break" },
+      ],
+    },
+    {
       day: "DAY 1 - EVENING",
-      date: "14th May, 2025, Wednesday",
+      date: "14th May 2025, Wednesday",
       sessions: [
-        { time: "16:00 – 16:30", session: "Invited Talk 2 & Tea Break" },
-        { time: "17:00 – 17:30", session: "Panel Discussion 1" },
+        {
+          time: "16:30 – 17:00",
+          session: "Invited Talk 2",
+          speaker: "Bala Natarajan (Online) , Kansas State University, Manhattan	",
+        },
+        {
+          time: "17:00 – 18:00",
+          session: "Panel Discussion",
+          speaker:
+            "From Lab to Land: Translating Agri-Tech Innovations into Scalable Solutions, by Prof. Pukhan (Moderator), Dr. Sukhen Chandra Das, Dr. Wangfyak Wasgsu, Dr. Pandav Kharel, and Prof. David Lal",
+        },
         { time: "19:30 onward", session: "Dinner" },
-      ]
+      ],
     },
     {
       day: "DAY 2 - MORNING",
-      date: "15th May, 2025, Thursday",
+      date: "15th May 2025, Thursday",
       sessions: [
-        { time: "09:00 – 09:45", session: "Keynote 3" },
-        { time: "09:45 – 10:30", session: "COMPAG Workshop" },
+        {
+          time: "09:00 – 09:45",
+          session: "Keynote 3",
+          speaker: "Prof. Dhananjay Singh , Penn State University, USA",
+        },
+        {
+          time: "09:45 – 10:30",
+          session: "COMPAG Workshop",
+          speaker: "Prof. Tomas Norton, KU Leuven, Belgium  and S. Sree Ranjani,  Elsevier",
+        },
         { time: "10:30 – 11:00", session: "Tea Break" },
         {
-          time: "11:00 – 12:30", 
+          time: "11:00 – 12:30",
           session: "Paper Presentations - Session 3",
           papers: [
-            { id: "6", title: "Assessing Multi-Mode Temporal PolSAR Data for Crop Classification using Deep Learning" },
-            { id: "63", title: "Optimized Conv-LSTM Model for Early Prediction of Crop Yield from Satellite Imagery" },
-            { id: "72", title: "LEADS (Leaf Anomaly Detection System): A Real-Time Edge Computing Solution" },
-            { id: "93", title: "Multimodal Fusion for Cow Behavior Prediction in Smart Dairy Farms" },
-            { id: "77", title: "Deep Learning-Based Framework for Automatic Plant Phenotyping from UAV Imagery" },
-            { id: "70", title: "Enhancing Large Language Model Performance for Agricultural Question Answering Systems" },
-          ]
+            {
+              id: "6",
+              title:
+                "Assessing Multi-Mode Temporal PolSAR Data for Crop Classification using Deep Learning",
+            },
+            {
+              id: "63",
+              title:
+                "Optimized Conv-LSTM Model for Early Prediction of Crop Yield from Satellite Imagery",
+            },
+            {
+              id: "72",
+              title:
+                "LEADS (Leaf Anomaly Detection System): A Real-Time Edge Computing Solution",
+            },
+            {
+              id: "93",
+              title:
+                "Multimodal Fusion for Cow Behavior Prediction in Smart Dairy Farms",
+            },
+            {
+              id: "77",
+              title:
+                "Deep Learning-Based Framework for Automatic Plant Phenotyping from UAV Imagery",
+            },
+            {
+              id: "70",
+              title:
+                "Enhancing Large Language Model Performance for Agricultural Question Answering Systems",
+            },
+          ],
         },
         { time: "12:30 – 14:00", session: "Lunch Break" },
-      ]
+      ],
     },
     {
       day: "DAY 2 - AFTERNOON",
-      date: "15th May, 2025, Thursday",
+      date: "15th May 2025, Thursday",
       sessions: [
-        { time: "14:00 – 14:30", session: "Invited Talk 3" },
         {
-          time: "14:30 – 16:00", 
+          time: "14:00 – 14:30",
+          session: "Invited Talk 3",
+          speaker:
+            "Ajay Dashora, IIT Guwahati",
+        },
+        {
+          time: "14:30 – 16:00",
           session: "Paper Presentations - Session 4",
           papers: [
-            { id: "98", title: "Real-Time DEM-Based Terrain and Step Farming Suitability Analysis" },
-            { id: "104", title: "Sodium Ion Detection using Polymer-Based Sensor for Soil Quality Assessment" },
-            { id: "79", title: "Residual Biomass Utilization: IoT-Enabled Smart Monitoring System" },
-            { id: "35", title: "Remote Sensing and Environmental parameter analysis for Crop Stress Detection" },
-            { id: "59", title: "AgriRover: A GPS-Guided Smart Rover for Soil Sampling and Analysis" },
-            { id: "83", title: "NIR spectroscopy based non-invasive assessment of fruit ripeness" },
-          ]
+            {
+              id: "98",
+              title:
+                "Real-Time DEM-Based Terrain and Step Farming Suitability Analysis",
+            },
+            {
+              id: "104",
+              title:
+                "Sodium Ion Detection using Polymer-Based Sensor for Soil Quality Assessment",
+            },
+            {
+              id: "79",
+              title:
+                "Residual Biomass Utilization: IoT-Enabled Smart Monitoring System",
+            },
+            {
+              id: "35",
+              title:
+                "Remote Sensing and Environmental parameter analysis for Crop Stress Detection",
+            },
+            {
+              id: "59",
+              title:
+                "AgriRover: A GPS-Guided Smart Rover for Soil Sampling and Analysis",
+            },
+            {
+              id: "83",
+              title:
+                "NIR spectroscopy based non-invasive assessment of fruit ripeness",
+            },
+          ],
         },
-       
-      ]
+        { time: "16:00 – 16:30", session: "Tea Break" },
+        
+      ],
     },
     {
       day: "DAY 2 - EVENING",
-      date: "15th May, 2025, Thursday",
+      date: "15th May 2025, Thursday",
       sessions: [
-        { time: "16:00 – 16:30", session: "Tea Break" },
         {
-          time: "16:30 – 17:45", 
+          time: "16:30 – 17:45",
           session: "Paper Presentations - Session 5",
           papers: [
-            { id: "56", title: "Real-Time Plant Disease Detection and Prevention using Edge AI" },
-            { id: "71", title: "A Detailed Perspective on Vertical Farming: Technologies and Challenges" },
-            { id: "88", title: "An IoT Smart Irrigation System with Predictive Analytics for Water Conservation" },
-            { id: "75", title: "Integration of Mechanical Systems and IoT for Automated Greenhouse Management" },
-          ]
+            {
+              id: "56",
+              title:
+                "Real-Time Plant Disease Detection and Prevention using Edge AI",
+            },
+            {
+              id: "71",
+              title:
+                "A Detailed Perspective on Vertical Farming: Technologies and Challenges",
+            },
+            {
+              id: "88",
+              title:
+                "An IoT Smart Irrigation System with Predictive Analytics for Water Conservation",
+            },
+            {
+              id: "75",
+              title:
+                "Integration of Mechanical Systems and IoT for Automated Greenhouse Management",
+            },
+          ],
         },
         { time: "19:30 onward", session: "Dinner" },
       ]
     },
     {
       day: "DAY 3",
-      date: "16th May, 2025, Friday",
+      date: "16th May 2025, Friday",
       sessions: [
-        { time: "09:00 – 09:45", session: "Invited Talk 4" },
-        { time: "09:45 – 10:30", session: "Panel Discussion 2" },
-        { time: "10:30 – 11:00", session: "Tea Break" },
         {
-          time: "11:00 – 12:00", 
+          time: "09:30 – 10:00",
+          session: "Invited Talk 4",
+          speaker:
+            "Sudip Mitra, IIT Guwahati",
+        },
+        { time: "10:00 – 10:30", session: "Tea Break" },
+        {
+          time: "10:30 – 11:15",
           session: "Paper Presentations - Session 6",
           papers: [
-            { id: "3", title: "AgriMetSupport: An Interoperable Cyber-Physical System for Agricultural Decision Support" },
-            { id: "87", title: "Comparative Analysis of DSSAT and APSIM Crop Models for Wheat Yield Prediction" },
-            { id: "90", title: "Quantum Reinforcement Learning Framework for Optimal Crop Rotation Planning" },
-          ]
+            {
+              id: "3",
+              title:
+                "AgriMetSupport: An Interoperable Cyber-Physical System for Enhanced Agrometeorological Data Management",
+            },
+            {
+              id: "87",
+              title:
+                "Comparative Analysis of DSSAT and APSIM Crop  Models for Wheat Yield Prediction in Chhattisgarh State of India",
+            },
+            {
+              id: "90",
+              title:
+                "Quantum Reinforcement Learning Framework for Agricultural Seed Treatment Optimization and Yield Prediction",
+            },
+          ],
         },
-        { time: "12:00 – 14:00", session: "Closing Ceremony & Lunch" },
-      ]
+        { time: "11:15 – 14:00", session: "Closing Ceremony & Lunch" },
+      ],
     },
   ];
 
