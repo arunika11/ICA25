@@ -59,7 +59,7 @@ const ProgramPage = () => {
         { time: "10:30 – 11:00", session: "Tea Break" },
         {
           time: "11:00 – 12:30",
-          session: "Paper Presentations - Session 1, Chair - Dr. Swati Shukla, VIT-AP University and Dr. Anamika Yadav, IIT Guwahati",
+          session: "Paper Presentations - Session 1, Chair - Dr. Swati Shukla, VIT-AP University and Dr. Anamika Yadav, IIT Guwahati, Theme - Crop Protection and Monitoring",
           papers: [
             {
               id: "27",
@@ -107,7 +107,7 @@ const ProgramPage = () => {
         },
         {
           time: "14:30 – 16:00",
-          session: "Paper Presentations - Session 2, Chair - Prof. Ram Prakash Sharma, NIT Arunachal",
+          session: "Paper Presentations - Session 2, Chair - Prof. Ram Prakash Sharma, NIT Arunachal, Theme - Remote-Sensing in Agriculture",
           papers: [
             {
               id: "57",
@@ -179,7 +179,7 @@ const ProgramPage = () => {
         { time: "10:30 – 11:00", session: "Tea Break" },
         {
           time: "11:00 – 12:30",
-          session: "Paper Presentations - Session 3, Chair - Dr. David Tlaisun Thawmthanga D.Litt, Central Agricultural University Imphal and College of Veterinary Science & Animal Husbandry , Selesih, Aizawal",
+          session: "Paper Presentations - Session 3, Chair - Dr. David Tlaisun Thawmthanga D.Litt, Central Agricultural University Imphal and College of Veterinary Science & Animal Husbandry , Selesih, Aizawal, Theme - Multimodal Deep Learning in Agriculture",
           papers: [
             {
               id: "6",
@@ -228,7 +228,7 @@ const ProgramPage = () => {
         },
         {
           time: "14:30 – 16:00",
-          session: "Paper Presentations - Session 4, Chair - Dr. Simrandeep singh, Postdoc, IIT Ropar",
+          session: "Paper Presentations - Session 4, Chair - Dr. Simrandeep singh, Postdoc, IIT Ropar, Theme - GIS and Multispectral Applications in Agriculture",
           papers: [
             {
               id: "98",
@@ -272,7 +272,7 @@ const ProgramPage = () => {
       sessions: [
         {
           time: "16:30 – 17:45",
-          session: "Paper Presentations - Session 5, Chair - Dr. Srinivas Naidu, Gitam University",
+          session: "Paper Presentations - Session 5, Chair - Dr. Srinivas Naidu, Gitam University, Theme - IoT Application in Agriculture",
           papers: [
             {
               id: "56",
@@ -312,7 +312,7 @@ const ProgramPage = () => {
         { time: "10:00 – 10:30", session: "Tea Break" },
         {
           time: "10:30 – 11:15",
-          session: "Paper Presentations - Session 6, Chair - Dr. Andrew Roobert, IIT Guwahati",
+          session: "Paper Presentations - Session 6, Chair - Dr. Andrew Roobert, IIT Guwahati, Theme - Advanced AI for Agriculture",
           papers: [
             {
               id: "3",
