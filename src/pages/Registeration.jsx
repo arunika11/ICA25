@@ -41,7 +41,7 @@ const RegisterationPage = () => {
         <div className="w-full max-w-5xl bg-white rounded-lg p-6 sm:p-8">
           <h4 className="font-heading text-2xl py-4 sm:text-3xl lg:text-4xl text-center font-semibold">
             Early Registration:{" "}
-            <span className="text-[#4ECB38]">Until 08/05/2025</span>
+            <span className="text-[#4ECB38]">Until 12/05/2025</span>
           </h4>
 
           <div className="overflow-x-auto">
@@ -104,8 +104,7 @@ const RegisterationPage = () => {
           <p className="text-gray-600 text-sm mt-4">
             <strong>Note:</strong> For each accepted paper/poster/demo,
             registration in one of the above categories (as per eligibility) is
-            compulsory. However, one registration can support up to two
-            papers/posters/demos.
+            compulsory.
           </p>
         </div>
       </section>
