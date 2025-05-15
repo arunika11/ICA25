@@ -5,7 +5,7 @@ import Speakers from "../components/Speakers";
 const Home = () => {
     // If in production mode, add prefix, otherwise use empty string
     // const IMAGE_PREFIX = process.env.REACT_APP_NODE_ENV === "production" ? "/ica25/" : "";
-    const IMAGE_PREFIX = "";
+    const IMAGE_PREFIX = "/ica25/";
     return (
       <div>
         <div className="min-h-screen font-sans overflow-hidden">
@@ -180,17 +180,17 @@ const Home = () => {
 
             <div className="flex justify-center items-center">
               <img
-                src={`${IMAGE_PREFIX}adrio.png`}
+                src={`${IMAGE_PREFIX}pw.png`}
                 alt="Adroitec"
-                className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
+                className="w-24 h-24 sm:w-40 sm:h-40 lg:w-44 lg:h-44 object-contain"
               />
             </div>
 
             <div className="flex justify-center items-center">
               <img
-                src={`${IMAGE_PREFIX}syngenta.png`}
+                src={`${IMAGE_PREFIX}emer.png`}
                 alt="Syngenta Group"
-                className="w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
+                className="w-36 h-36 sm:w-40 sm:h-40 lg:w-48 lg:h-48 object-contain"
               />
             </div>
 
@@ -210,14 +210,21 @@ const Home = () => {
               />
             </div>
           </div>
-          <div className="flex justify-center mt-8 w-full">
+          <div className="flex flex-col space-y-20 sm:space-y-0 md:space-y-0 lg-space-y-0 sm:flex-row justify-evenly mt-8 w-full md:flex-row lg:flex-row">
             <div className="flex justify-center items-center">
               <img
                 src={`${IMAGE_PREFIX}sart.jpg`}
                 alt="SART IITG"
-                className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
+                className="w-24 h-24 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
               />
             </div>
+            {/* <div className="flex justify-center items-center">
+              <img
+                src={`${IMAGE_PREFIX}pw.png`}
+                alt="SART IITG"
+                className="w-24 h-24 sm:w-40 sm:h-40 lg:w-48 lg:h-48 object-contain"
+              />
+            </div> */}
           </div>
         </div>
         <div className="min-h-[60vh] bg-white flex flex-col justify-center p-8 lg:p-16">
@@ -236,8 +243,8 @@ const Home = () => {
 
             <div className="flex justify-center items-center">
               <img
-                src={`${IMAGE_PREFIX}a2.png`}
-                alt="NITM"
+                src={`${IMAGE_PREFIX}iitrpr.png`}
+                alt="IIT ROPAR"
                 className="w-24 h-24 m:w-36 sm:h-36 lg:w-44 lg:h-44 object-contain"
               />
             </div>
@@ -258,7 +265,7 @@ const Home = () => {
               />
             </div>
           </div>
-          <div className="flex justify-center mt-8 w-full">
+          {/* <div className="flex justify-center mt-8 w-full">
             <div className="flex justify-center items-center">
               <img
                 src={`${IMAGE_PREFIX}iitrpr.png`}
@@ -266,7 +273,7 @@ const Home = () => {
                 className="w-32 h-32 sm:w-40 sm:h-40 lg:w-56 lg:h-56 object-contain"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     );
