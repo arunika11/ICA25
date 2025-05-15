@@ -59,37 +59,37 @@ const ProgramPage = () => {
         { time: "10:30 – 11:00", session: "Tea Break" },
         {
           time: "11:00 – 12:30",
-          session: "Paper Presentations - Session 1",
+          session: "Paper Presentations - Session 1, Chair - Dr. Swati Shukla, VIT-AP University and Dr. Anamika Yadav, IIT Guwahati",
           papers: [
             {
               id: "27",
               title:
-                "Rice Crop Disease Detection using Hybrid DenseNet with Swin Transformer",
+                "Rice Crop Disease Detection using Hybrid DenseNet with Swin Transformer, Author: Snehal Veer (APCOER)",
             },
             {
               id: "74",
               title:
-                "Enhancing Agricultural Intelligence: A Comparison of AI Models for Plant Disease Categorisation and Crop Yield Prediction",
+                "Enhancing Agricultural Intelligence: A Comparison of AI Models for Plant Disease Categorisation and Crop Yield Prediction, Authors: Jaspreet Kaur (Chandigarh university), Navjot Kaur (Punjabi University)",
             },
             {
               id: "31",
               title:
-                "Early Disease Detection in Pearl Millet Using YOLO v11 Model for Improved Agricultural Monitoring",
+                "Early Disease Detection in Pearl Millet Using YOLO v11 Model for Improved Agricultural Monitoring, Authors: Aravinth J (Amrita School of Engineering), Chalmers  J (	Amrita School of Engineering), Harish Kumar  S R (Amrita School of Engineering), Senthil Kumar  T (	Amrita School of Engineering), Johnson  I (	Amrita School of Engineering)",
             },
             {
               id: "64",
               title:
-                "SIPSNET: Advancing Saffron Impurity Prediction with Majority Voting Technique",
+                "SIPSNET: Advancing Saffron Impurity Prediction with Majority Voting Technique, Authors: Suhail manzoor (Central University of Jammu)",
             },
             {
               id: "23",
               title:
-                "AgriFed: A Federated Learning Approach for Scalable and Secure Crop Disease Detection",
+                "AgriFed: A Federated Learning Approach for Scalable and Secure Crop Disease Detection, Authors: HEMANT PANCHARIYA (DELHI TECHNOLOGICAL UNIVERSITY), NIYATI NARWAL (DELHI TECHNOLOGICAL UNIVERSITY), FARHAT QADRI (Indian Institute of Technology, Madras ), REJOY CHAKRABORTY (Indian Institute of Technology, Ropar, Punjab), PUNEET GOYAL (Indian Institute of Technology, Ropar, Punjab)",
             },
             {
               id: "52",
               title:
-                "Optimal Hyperspectral Band selection using Amended Lyrebird Optimization Algorithm",
+                "Optimal Hyperspectral Band selection using Amended Lyrebird Optimization Algorithm, Authors: Aravinth J (Amrita School of Engineering), Elza  George (	Amrita School of Engineering),  Sathishkumar  Samiappan (The University of Tennessee)",
             },
           ],
         },
@@ -107,37 +107,37 @@ const ProgramPage = () => {
         },
         {
           time: "14:30 – 16:00",
-          session: "Paper Presentations - Session 2",
+          session: "Paper Presentations - Session 2, Chair - Prof. Ram Prakash Sharma, NIT Arunachal",
           papers: [
             {
               id: "57",
               title:
-                "Optimally Designed High-Efficiency Drone-Based Spray System for Precision Nutrient Delivery in Agricultural Farms",
+                "Optimally Designed High-Efficiency Drone-Based Spray System for Precision Nutrient Delivery in Agricultural Farms, Authors: Sudhakar Kanaujia (Indian Institute of Technology Guwahati), Vaishali  Gangwar (Assistant Professor Department of Crop Physiology  College of Agriculture  Banda University of Agriculture and Technology,Banda), Ajay Dashora (Associated Faculty, Centre for Drone Technology Assistant Professor, Dept of Civil Engg, IIT Guwahati), Pradip Kumar Das (Head - Centre for Drone Technology, Professor, Computer Science & Engineering, IIT Guwahati)",
             },
             {
               id: "112",
               title:
-                "Energy Consumption Analysis for a Robotic Arm in Vertical Farming Process: An Experimental Validation",
+                "Energy Consumption Analysis for a Robotic Arm in Vertical Farming Process: An Experimental Validation, Author: Priyanka Verma (IIT Ropar)",
             },
             {
               id: "103",
               title:
-                "Swarm Robotics for Agricultural Drones: A Transformative Approach to Smart Farming",
+                "Swarm Robotics for Agricultural Drones: A Transformative Approach to Smart Farming, Authors: Devakumar T (National Engineering College,Kovilpatti), Arunsamuel T.S (National Engineering college), Seshora Besima A (National Engineering College,Kovilpatti), Sharon Geege A (National Engineering College)",
             },
             {
               id: "60",
               title:
-                "A Model Based Comparative Study for Conventional and Drone Based Farming: Case Studies from India",
+                "A Model Based Comparative Study for Conventional and Drone Based Farming: Case Studies from India, Authors: Kondaka Shiva Sankar (INDIAN INSTITUTE OF TECHNOLOGY GUWAHATI), Ajay Dashora (INDIAN INSTITUTE OF TECHNOLOGY GUWAHATI), Pradip Kumar Das (INDIAN INSTITUTE OF TECHNOLOGY GUWAHATI)",
             },
             {
               id: "58",
               title:
-                "Assessing applicability and adoption of agriculture-centric computation technologies in Punjab: A multi-district farmer survey",
+                "Assessing applicability and adoption of agriculture-centric computation technologies in Punjab: A multi-district farmer survey, Authors: Samiksha Gupta (Plaksha University, Mohali, Punjab ), Navjot Kaur (Plaksha University, Mohali, Punjab)",
             },
             {
               id: "69",
               title:
-                "Drone RCS Statistical Behaviour and its Implications for Agriculture Drones Air Traffic Management",
+                "Drone RCS Statistical Behaviour and its Implications for Agriculture Drones Air Traffic Management, Authors: Jan Pidanic (University of Pardubice), Pavel Sedivy (University of Pardubice), Gaurav Trivedi (Indian Institute of Technology Guwahati), Stephen Paine (University of Cape Town)",
             },
           ],
         },
@@ -157,7 +157,7 @@ const ProgramPage = () => {
           time: "17:00 – 18:00",
           session: "Panel Discussion",
           speaker:
-            "From Lab to Land: Translating Agri-Tech Innovations into Scalable Solutions, by Prof. Pukhan (Moderator), Dr. Sukhen Chandra Das, Dr. Wangfyak Wasgsu, Dr. Pandav Kharel, and Prof. David Lal",
+            "From Lab to Land: Translating Agri-Tech Innovations into Scalable Solutions, by Prof. Pukhan (Moderator), Dr. Sukhen Chandra Das, Dr. Wangfyak Wasgsu, Dr. Panday, and Prof. David Lai",
         },
         { time: "19:30 onward", session: "Dinner" },
       ],
@@ -179,37 +179,37 @@ const ProgramPage = () => {
         { time: "10:30 – 11:00", session: "Tea Break" },
         {
           time: "11:00 – 12:30",
-          session: "Paper Presentations - Session 3",
+          session: "Paper Presentations - Session 3, Chair - Dr. David Tlaisun Thawmthanga D.Litt, Central Agricultural University Imphal and College of Veterinary Science & Animal Husbandry , Selesih, Aizawal",
           papers: [
             {
               id: "6",
               title:
-                "Assessing Multi-Mode Temporal PolSAR Data for Crop Classification using Deep Learning",
+                "Assessing Multi-Mode Temporal PolSAR Data for Winter Wheat and Barley Discrimination Using Convolutional Neural Networks, Authors: Debanjan Chowdhury (Amity University Haryana), Sagar Kumar (Indian Institute of Technology Guwahati), Swarnendu Sekhar Ghosh (Indian Institute of Technology Bombay), Dipankar Mandal (Indian Institute of Technology Guwahati)",
             },
             {
               id: "63",
               title:
-                "Optimized Conv-LSTM Model for Early Prediction of Crop Yield from Satellite Imagery",
+                "Optimized Conv-LSTM Model for Analyzing Negative Affective State Vocalization in Dairy Cattle for an Edge Device, Author: Hitesh Ramrakhiyani (Indian Institute of Technology Guwahati)",
             },
             {
               id: "72",
               title:
-                "LEADS (Leaf Anomaly Detection System): A Real-Time Edge Computing Solution",
+                "LeADS (Leaf Anomaly Detection System):Deep Learning Pipeline for Leaf Stress, Disease & Severity Estimation, Authors: Mayur Das (Indian Institute of Technology Ropar), Neeraj Goel (Indian Institute of Technology Ropar), Mukesh Saini (Indian Institute of Technology Ropar)",
             },
             {
               id: "93",
               title:
-                "Multimodal Fusion for Cow Behavior Prediction in Smart Dairy Farms",
+                "Multimodal Fusion for Cow Behavior Prediction, Authors: Ajeet Kumar (IIT ROPAR), Abhinav Upadhyay (IIT ROPAR), Varun Kukreti (IIT ROPAR), Vajja Yashaswini (IIT ROPAR), Shreya Bansal (IIT Ropar), Neeraj Goel (IIT ROPAR), Mukesh Saini (IIT ROPAR)",
             },
             {
               id: "77",
               title:
-                "Deep Learning-Based Framework for Automatic Plant Phenotyping from UAV Imagery",
+                "Deep Learning-Based Framework for Early Detection and Classification of Mango Crop Diseases, Authors: B Bhargavi (VIT-AP University), Sumesh Eratt Parameswaran (VIT-AP University)",
             },
             {
               id: "70",
               title:
-                "Enhancing Large Language Model Performance for Agricultural Question Answering Systems",
+                "Enhancing Large Language Model Performance for Agricultural Domain Translation via Specialized Dictionaries and Embeddings, Authors: Ms. Shyama Wilson (Uva Wellassa University), Athula Ginige (Western Sydney Univeristy), Krishan Warnakulasuriya (Deakin University), Dilum Wijesundara (University of Ruhuna)",
             },
           ],
         },
@@ -228,37 +228,37 @@ const ProgramPage = () => {
         },
         {
           time: "14:30 – 16:00",
-          session: "Paper Presentations - Session 4",
+          session: "Paper Presentations - Session 4, Chair - Dr. Simrandeep singh, Postdoc, IIT Ropar",
           papers: [
             {
               id: "98",
               title:
-                "Real-Time DEM-Based Terrain and Step Farming Suitability Analysis",
+                "Real-Time DEM-Based Terrain and Step Farming Suitability Analysis via Geospatial Processing in VR, Authors: Rahul Rai (IIT Ropar), Reshu Bansal (IIT Mandi ), Shashi Shekhar Jha (IIT Ropar), Kohei Yoshida (Edify Co. Ltd. Japan), Kota Sudo (Edify Co. Ltd. Japan)",
             },
             {
               id: "104",
               title:
-                "Sodium Ion Detection using Polymer-Based Sensor for Soil Quality Assessment",
+                "Sodium Ion Detection using Polymer-Based Sensor for Monitoring Soil Health in Agriculture, Authors: Devakumar T (National Engineering College,Kovilpatti), Arunsamuel T.S (National Engineering college), Seshora Besima A (National Engineering College,Kovilpatti), Sharon Geege A (National Engineering College)",
             },
             {
               id: "79",
               title:
-                "Residual Biomass Utilization: IoT-Enabled Smart Monitoring System",
+                "Residual Biomass Utilization: A Review on Newly Emerging Technique for Mitigating Climate Change, Authors: Revathi Nagaraju Gundluri (Indian Institute of technology Guwahati), Rakesh Mishra (University of New Brunswick), Gaetan  Pelletier (National Hardwoods Research Institute ), Ajay Dashora (Indian Institute of technology Guwahati), Yun Zhang (University of New Brunswick)",
             },
             {
               id: "35",
               title:
-                "Remote Sensing and Environmental parameter analysis for Crop Stress Detection",
+                "Remote Sensing and Environmental parameter analysis of Rajpura, Punjab using GIS for Precision farming applications, Authors: Manvinder Sharma (Chitkara University, Rajpura), Rajneesh Talwar (Chitkara University Punjab), Satyajit Anand (Chitkara University Punjab), Harjinder Singh (Punjabi University, Patiala), Tejpal Sharma (Chitkara University, Punjab)",
             },
             {
               id: "59",
               title:
-                "AgriRover: A GPS-Guided Smart Rover for Soil Sampling and Analysis",
+                "AgriRover: A GPS-Guided Smart Rover for Environmental Monitoring, Authors: Aditya Sahu (Koneru Lakshmaiah Education Foundation), P Haarika (Koneru Lakshmaiah Education Foundation), N Prabakaran (Koneru Lakshmaiah Education Foundation)",
             },
             {
               id: "83",
               title:
-                "NIR spectroscopy based non-invasive assessment of fruit ripeness",
+                "NIR spectroscopy based non-invasive assessment of tea quality, Authors: Onkar Sarma (Indian Institute of Technology, Delhi), Kavya Dashora (Indian Institute of Technology, Delhi)",
             },
           ],
         },
@@ -272,27 +272,27 @@ const ProgramPage = () => {
       sessions: [
         {
           time: "16:30 – 17:45",
-          session: "Paper Presentations - Session 5",
+          session: "Paper Presentations - Session 5, Chair - Dr. Srinivas Naidu, Gitam University",
           papers: [
             {
               id: "56",
               title:
-                "Real-Time Plant Disease Detection and Prevention using Edge AI",
+                "Real-Time Plant Disease Detection and Prevention  Using AI and IoT in Smart Agriculture, Author: Abhinav Garlapati (VRSEC)",
             },
             {
               id: "71",
               title:
-                "A Detailed Perspective on Vertical Farming: Technologies and Challenges",
+                "A Detailed Perspective on Vertical Farming – An Innovative Agricultural Trend with AI/ML and Smart Robotics, Authors: Jyoti Kulhari (Indian Institute of Technology Guwahati), Ajay Dashora (Indian Institute of Technology Guwahati), Sparsh Johari (	Indian Institute of Technology Guwahati)",
             },
             {
               id: "88",
               title:
-                "An IoT Smart Irrigation System with Predictive Analytics for Water Conservation",
+                "An IoT Smart Irrigation System using Raspberry Pi and ThingSpeak: Design, Implementation, and Validation, Author: Rajkumar Bhandari (Visva Bharati )",
             },
             {
               id: "75",
               title:
-                "Integration of Mechanical Systems and IoT for Automated Greenhouse Management",
+                "Integration of Mechanical Systems and IoT for Smart and Climate-Resilient Irrigation in Agriculture, Author: Hitendra Kumar Maharana (Synergy Institute of Technology, Bhubaneswar), Mahesh Vasantrao Kulkarni (Dr. Vishwanath Karad MIT World Peace University), Ramesh Nayak (Synergy Institute of Technology), Manmatha K. Roul (GITA Autonomous College, Bhubaneswar, Odisha), Saroj Kumar Sarangi  (National Institute of Technology, Jamshedpur), Suryavanshi Bhagyeshkumar Vijaybhai (Birla Vishwakarma Mahavidhyalya (BVM) Engineering College, Anand, Gujarat)",
             },
           ],
         },
@@ -312,22 +312,22 @@ const ProgramPage = () => {
         { time: "10:00 – 10:30", session: "Tea Break" },
         {
           time: "10:30 – 11:15",
-          session: "Paper Presentations - Session 6",
+          session: "Paper Presentations - Session 6, Chair - Dr. Andrew Roobert, IIT Guwahati",
           papers: [
             {
               id: "3",
               title:
-                "AgriMetSupport: An Interoperable Cyber-Physical System for Enhanced Agrometeorological Data Management",
+                "AgriMetSupport: An Interoperable Cyber-Physical System for Enhanced Agrometeorological Data Management, Author: Akhil Madhamshetty (University of North Carolina at Charlotte)",
             },
             {
               id: "87",
               title:
-                "Comparative Analysis of DSSAT and APSIM Crop  Models for Wheat Yield Prediction in Chhattisgarh State of India",
+                "Comparative Analysis of DSSAT and APSIM Crop  Models for Wheat Yield Prediction in Chhattisgarh State of India, Authors: Shashi Bhushan Kumar (indian institute of technology kharagpur), Suyog  Balasaheb Khose (indian institute of technology kharagpur), Rajul  Upadhyay (Indian institute of technology kharagpur), Ashok Mishra (Indian institute of technology kharagpur)",
             },
             {
               id: "90",
               title:
-                "Quantum Reinforcement Learning Framework for Agricultural Seed Treatment Optimization and Yield Prediction",
+                "Quantum Reinforcement Learning Framework for Agricultural Seed Treatment Optimization and Yield Prediction, Authors: Tamilarasi K (VIT Chennai), Isshaan Singh (VIT Chennai), Divyansh  Chawla (VIT Chennai), Raghav Jain (VIT Chennai)",
             },
           ],
         },
@@ -397,7 +397,7 @@ const ProgramPage = () => {
             Program <span className="text-[#4ECB38]">Schedule</span>
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            Details of Keynote Speakers and Invited Talks will be updated soon along with venue.
+           All Events to be Held at the Conference Center, IIT Guwahati
           </p>
         </div>
 
