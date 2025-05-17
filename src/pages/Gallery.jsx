@@ -88,7 +88,7 @@ const Gallery = () => {
     "317-min.jpg",
     "318-min.jpg",
     "319-min.jpg",
-
+"367.jpg",
     "321-min.png",
     "322-min.jpg",
     "323-min.jpg",
@@ -131,7 +131,6 @@ const Gallery = () => {
     "357-min.jpg",
     "358-min.jpg",
     "359-min.jpg",
-    "360-min.jpg",
   ];
   return (
     <div className="min-h-screen">
