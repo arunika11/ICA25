@@ -59,10 +59,82 @@ const Gallery = () => {
     "285.jpg",
     "286.jpg",
     "287.jpg",
-    "288.jpg"
-];
+    "288.jpg",
+  ];
 
+  const images3 = [
+    "301-min.jpg",
+    "302-min.jpg",
+    "303-min.jpg",
+    "354-min.jpg",
+    "304-min.jpg",
+    "305-min.jpg",
+    "320-min.png",
+    "366.jpg",
+    "306-min.jpg",
+    "361-min.png",
+    "362-min.png",
+    "307-min.jpg",
+    "359-min.jpg",
+    "360-min.jpg",
+    "308-min.jpg",
+    "309-min.jpg",
+    "310-min.jpg",
+    "311-min.jpg",
+    "312-min.jpg",
+    "313-min.jpg",
+    "314-min.jpg",
+    "315-min.jpg",
+    "316-min.jpg",
+    "3255-min.jpg",
+    "317-min.jpg",
+    "318-min.jpg",
+    "319-min.jpg",
 
+    "321-min.png",
+    "322-min.jpg",
+    "323-min.jpg",
+    "324-min.jpg",
+    "325-min.jpg",
+    "326-min.jpg",
+    "327-min.jpg",
+    "328-min.jpg",
+    "329-min.jpg",
+    "330-min.jpg",
+    "331-min.jpg",
+    "332-min.jpg",
+    "333-min.jpg",
+    "334-min.jpg",
+    "335-min.jpg",
+    "336-min.jpg",
+    "363-min.jpg",
+    "364-min.jpg",
+    "365-min.jpg",
+    "337-min.jpg",
+    "338-min.jpg",
+    "339-min.jpg",
+    "340-min.jpg",
+    "341-min.jpg",
+    "342-min.jpg",
+    "343-min.jpg",
+    "344-min.jpg",
+    "345-min.jpg",
+    "346-min.jpg",
+    "347-min.jpg",
+    "348-min.jpg",
+    "349-min.jpg",
+    "350-min.jpg",
+    "351-min.jpg",
+    "352-min.jpg",
+    "353-min.jpg",
+
+    "355-min.jpg",
+    "356-min.jpg",
+    "357-min.jpg",
+    "358-min.jpg",
+    "359-min.jpg",
+    "360-min.jpg",
+  ];
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -91,7 +163,7 @@ const Gallery = () => {
           <div key={index} className="flex justify-center items-center">
             <img
               src={image}
-              alt={`Image ${index + 1}`}
+              alt={`${image == "360-min.jpg" ? "avinash gupta": Image }  ${index + 1}`}
               className="w-[500px] h-[300px] object-cover rounded-lg shadow-md"
             />
           </div>
@@ -103,6 +175,20 @@ const Gallery = () => {
       {/* Gallery Section */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-4 p-4">
         {images2.map((image, index) => (
+          <div key={index} className="flex justify-center items-center">
+            <img
+              src={image}
+              alt={`Image ${index + 1}`}
+              className="w-[500px] h-[300px] object-cover rounded-lg shadow-md"
+            />
+          </div>
+        ))}
+      </div>
+      <h3 className="font-heading text-3xl sm:text-4xl text-center lg:text-5xl font-semibold text-black m-24">
+        ICA <span className="font-semibold text-[#4ECB38]">2025</span>
+      </h3>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-4 p-4">
+        {images3.map((image, index) => (
           <div key={index} className="flex justify-center items-center">
             <img
               src={image}
