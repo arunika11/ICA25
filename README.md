@@ -1,30 +1,53 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This repository hosts the website for the **International Conference of Agriculture 2025 (ICA 2025), 3rd Edition**, which took place from **May 13th to 16th, 2025**, at **IIT Guwahati**. The official hosted website can be found at [event.iitg.ac.in](https://event.iitg.ac.in).
+
+This entire website was developed and maintained by **Avinash Gupta** from IIT Guwahati, under the guidance of **Professor Hanumant Singh Shekhawat**, one of the organizers of ICA 2025.
+
+## Themes of the International Conference of Agriculture 2025 (3rd Edition)
+
+While the specific themes would be detailed on the conference website, international conferences on agriculture typically cover a wide range of topics crucial for the advancement and sustainability of the agricultural sector. These often include:
+
+  * **Sustainable Agriculture and Resource Management:** Focusing on practices that conserve natural resources, reduce environmental impact, and ensure long-term productivity.
+  * **Climate-Smart Agriculture:** Addressing the challenges posed by climate change through adaptation and mitigation strategies in agriculture.
+  * **Precision Agriculture and Digital Farming:** Exploring the use of technology like sensors, drones, AI, and data analytics to optimize farming practices.
+  * **Biotechnology and Crop Improvement:** Discussing advancements in genetic engineering, breeding techniques, and other biotechnological tools for enhancing crop yields and quality.
+  * **Food Security and Nutrition:** Addressing global food security challenges, improving nutritional value of food, and reducing food waste.
+  * **Post-Harvest Technology and Food Processing:** Focusing on innovations in food preservation, processing, and value addition.
+  * **Agricultural Economics and Policy:** Examining economic aspects of agriculture, trade policies, and rural development.
+  * **Livestock Management and Health:** Covering sustainable livestock production, animal health, and disease management.
+  * **Horticulture and Plantation Crops:** Discussing advancements in the cultivation and management of fruits, vegetables, and plantation crops.
+  * **Soil Health and Fertility:** Emphasizing the importance of soil health for sustainable agricultural production.
+
+For the comprehensive list of themes and sub-themes, please refer to the official ICA 2025 website at [event.iitg.ac.in](https://event.iitg.ac.in).
 
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `npm install`
+
+Before running the application, you need to install all the necessary dependencies. Open your terminal in the project directory and run this command. This will download and install all the packages required for the project to run.
+
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.  
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.  
 You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.  
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.  
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.  
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
