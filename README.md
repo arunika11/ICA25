@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# ICACC 25
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This repository hosts the website for the **International Conference of Agriculture 2025 (ICA 2025), 3rd Edition**, which took place from **May 13th to 16th, 2025**, at **IIT Guwahati**. The official hosted website can be found at [event.iitg.ac.in](https://event.iitg.ac.in).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This repository hosts the website for the **International Conference of Agriculture Centric Computation 2025 (ICA 2025), 3rd Edition**, which took place from **May 13th to 16th, 2025**, at **IIT Guwahati**. The official hosted website can be found at [event.iitg.ac.in](https://event.iitg.ac.in/ica25).
 
 This entire website was developed and maintained by **Avinash Gupta** from IIT Guwahati, under the guidance of **Professor Hanumant Singh Shekhawat**, one of the organizers of ICA 2025.
 
