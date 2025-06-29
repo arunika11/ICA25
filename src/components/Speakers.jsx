@@ -24,22 +24,21 @@ const ProgramPage = () => {
 
   return (
     <div className="bg-[#fff] p-8 lg:p-16 min-h-[60vh]">
-          <div className="text-left relative">
-          {/* <div className="absolute inset-0 flex items-center justify-center" aria-hidden="true">
+      <div className="text-left relative">
+        {/* <div className="absolute inset-0 flex items-center justify-center" aria-hidden="true">
             <div className="w-1/2 h-1 bg-green-100 rounded-full"></div>
           </div> */}
-          <div className="relative">
+        <div className="relative">
           <h2 className="font-heading text-5xl text-black font-semibold ">
-          Keynote <span className="text-[#4ECB38]">Speakers</span>
-        </h2>
-            {/* <p className="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">
+            Keynote <span className="text-[#4ECB38]">Speakers</span>
+          </h2>
+          {/* <p className="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">
               Distinguished experts sharing groundbreaking insights and innovative perspectives
             </p> */}
-          </div>
         </div>
+      </div>
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Header Section */}
-      
 
         {/* Speakers Grid */}
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -63,7 +62,9 @@ const ProgramPage = () => {
 
               {/* Speaker Info */}
               <div className="p-6">
-                <h3 className="text-2xl font-bold text-gray-900">{speaker.name}</h3>
+                <h3 className="text-2xl font-bold text-gray-900">
+                  {speaker.name}
+                </h3>
                 <p className="text-gray-600 mt-1">{speaker.title}</p>
                 <div className="mt-6">
                   <a
