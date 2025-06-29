@@ -1,4 +1,3 @@
-import React from "react";
 import VenueCard from "../components/VenueCard";
 
 const VenuePage = () => {
