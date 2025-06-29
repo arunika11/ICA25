@@ -32,20 +32,6 @@ const CallsPage = () => {
             </h3>
 
             <div className="flex flex-col lg:flex-row mt-4 sm:mt-6 lg:mt-8 w-full justify-between items-start lg:items-center">
-              {/* <div className="font-body space-y-6 lg:space-y-4 lg:w-3/4">
-                <div className="text-sm sm:text-lg text-white">
-                  <p className="text-base sm:text-lg md:text-xl leading-relaxed">
-                    We are the organizers of the International Conference on
-                    Agriculture-Centric Computation (ICA), dedicated to
-                    advancing agriculture through computational innovations. Our
-                    mission is to connect researchers, industry experts, and
-                    policymakers to address agricultural challenges with
-                    cutting-edge technology. By fostering collaboration and
-                    promoting sustainability, we aim to drive meaningful
-                    advancements in agriculture for a better future.
-                  </p>
-                </div>
-              </div> */}
 
               <div className="flex items-center justify-start lg:justify-end mt-6 lg:mt-0 w-full lg:w-4/4">
                <a href="https://cmt3.research.microsoft.com/ICA2025"> <button
