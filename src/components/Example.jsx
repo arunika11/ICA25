@@ -1,14 +1,16 @@
-import React from 'react';
+import React from "react";
 
 const ProfileCard = ({ name, title, image, scholarUrl, linkedUrl }) => {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:shadow-lg hover:scale-[1.02] w-full max-w-sm">
-      <div className="aspect-w-4 aspect-h-3"> {/* Consistent aspect ratio */}
+      <div className="aspect-w-4 aspect-h-3">
+        {" "}
+        {/* Consistent aspect ratio */}
         <img
           src={image || "/api/placeholder/400/300"}
           alt={name}
           className="w-full h-full object-cover" // Ensure image covers the area
-          style={{ height: '400px' }}
+          style={{ height: "400px" }}
         />
       </div>
       <div className="p-4">
@@ -70,34 +72,35 @@ const ProfileCard = ({ name, title, image, scholarUrl, linkedUrl }) => {
 };
 
 const WorkshopChairGrid = ({ chairs }) => {
-    const gridClasses = "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center max-w-6xl mx-auto";
+  const gridClasses =
+    "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center max-w-6xl mx-auto";
 
-    // Calculate placeholders
-    const placeholdersCount = (3 - (chairs.length % 3)) % 3;
+  // Calculate placeholders
+  const placeholdersCount = (3 - (chairs.length % 3)) % 3;
 
-    return (
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <div className={gridClasses}>
-                {chairs.map((chair, index) => (
-                    <ProfileCard
-                        key={index}
-                        name={chair.name}
-                        title={chair.title}
-                        image={chair.image}
-                        scholarUrl={chair.scholarUrl}
-                        linkedUrl={chair.linkedUrl}
-                    />
-                ))}
-                {/* Add invisible placeholders to complete the row */}
-                {Array.from({ length: placeholdersCount }).map((_, i) => (
-                    <div
-                        key={`placeholder-${i}`}
-                        className="w-full max-w-sm aspect-[4/3] invisible"
-                    />
-                ))}
-            </div>
-        </div>
-    );
+  return (
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className={gridClasses}>
+        {chairs.map((chair, index) => (
+          <ProfileCard
+            key={index}
+            name={chair.name}
+            title={chair.title}
+            image={chair.image}
+            scholarUrl={chair.scholarUrl}
+            linkedUrl={chair.linkedUrl}
+          />
+        ))}
+        {/* Add invisible placeholders to complete the row */}
+        {Array.from({ length: placeholdersCount }).map((_, i) => (
+          <div
+            key={`placeholder-${i}`}
+            className="w-full max-w-sm aspect-[4/3] invisible"
+          />
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default WorkshopChairGrid;
