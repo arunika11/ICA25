@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const ProfileCard = ({ name, title, image, scholarUrl, linkedUrl }) => {
   return (
@@ -8,7 +8,7 @@ const ProfileCard = ({ name, title, image, scholarUrl, linkedUrl }) => {
           src={image || "/api/placeholder/400/300"}
           alt={name}
           className="w-full h-full object-cover"
-          style={{ height: '400px' }} // Added fixed height to image
+          style={{ height: "400px" }} // Added fixed height to image
         />
       </div>
       <div className="p-4">
