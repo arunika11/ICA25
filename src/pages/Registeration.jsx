@@ -3,7 +3,7 @@ import React from "react";
 const RegisterationPage = () => {
   return (
     <div className="min-h-screen overflow-hidden">
-       <section
+      <section
         id="home"
         className="relative bg-cover bg-center"
         style={{
