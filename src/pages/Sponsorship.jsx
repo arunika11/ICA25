@@ -113,17 +113,19 @@ const SponsorShipPage = () => {
             </div>
           </p>
           <ul className="text-[#323232] text-lg font-normal font-['Work Sans'] leading-snug list-disc pl-6 space-y-2">
-            <li className="font-bold text-2xl">Platinum Sponsorship - INR (3,00,000 and above)
-            </li>
-            <li>Premium brand visibility across all conference materials and platforms.
+            <li className="font-bold text-2xl">
+              Platinum Sponsorship - INR (3,00,000 and above)
             </li>
             <li>
-            Exclusive speaking slot during a high-profile session.
+              Premium brand visibility across all conference materials and
+              platforms.
             </li>
-            <li>Dedicated exhibition space and priority placement.
-            </li>
+            <li>Exclusive speaking slot during a high-profile session.</li>
+            <li>Dedicated exhibition space and priority placement.</li>
             <li>Five complimentary event registrations.</li>
-            <li className="font-bold text-2xl" >Diamond Sponsorship - INR 2,00,000</li>
+            <li className="font-bold text-2xl">
+              Diamond Sponsorship - INR 2,00,000
+            </li>
             <li>Provision of a dedicated exhibition stall.</li>
             <li>
               Inclusion of industry-specific infographics in the registration
@@ -137,14 +139,18 @@ const SponsorShipPage = () => {
               (duration: 15 minutes).
             </li>
             <li>Three complimentary event registrations.</li>
-            <li className="font-bold text-2xl">Gold Sponsorship - INR 1,00,000</li>
+            <li className="font-bold text-2xl">
+              Gold Sponsorship - INR 1,00,000
+            </li>
             <li>Provision of a dedicated exhibition stall.</li>
             <li>
               An opportunity for an Industrial Talk by the representative
               (duration: 10 minutes).
             </li>
             <li>Two complimentary event registrations.</li>
-            <li className="font-bold text-2xl">Silver Sponsorship - INR 50,000</li>
+            <li className="font-bold text-2xl">
+              Silver Sponsorship - INR 50,000
+            </li>
             <li>Provision of a dedicated exhibition stall.</li>
             <li>One complimentary event registration.</li>
           </ul>
@@ -158,93 +164,94 @@ const SponsorShipPage = () => {
             chair or Sponsorship Chairs via:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full font-body">
-  {contacts.map((contact, index) => (
-    <div
-      key={index}
-      className="border-2 border-black p-4 flex flex-col items-start"
-    >
-      <div className="flex justify-between w-full">
-        <h3 className="text-lg font-bold text-[#4ECB38]">{contact.name}</h3>
-        <p className="text-sm text-gray-600">{contact.role}</p>
-      </div>
-      <hr className="my-2 w-full border-gray-300" />
-      <div className="flex items-center">
-        <svg
-          width="32"
-          height="18"
-          viewBox="0 0 32 18"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g id="Message_light">
-            <rect
-              id="Rectangle 1"
-              x="5.33301"
-              y="1"
-              width="21.3333"
-              height="16"
-              rx="2.66667"
-              stroke="#333333"
-              strokeWidth="1.33333"
-            />
-            <path
-              id="Vector 3"
-              d="M5.33301 5L14.8071 9.73705C15.5578 10.1124 16.4415 10.1124 17.1922 9.73705L26.6663 5"
-              stroke="#333333"
-              strokeWidth="1.33333"
-            />
-          </g>
-        </svg>
-        <p className="text-sm text-gray-800 ml-2">{contact.email}</p>
-      </div>
-    </div>
-  ))}
-</div>
-
+            {contacts.map((contact, index) => (
+              <div
+                key={index}
+                className="border-2 border-black p-4 flex flex-col items-start"
+              >
+                <div className="flex justify-between w-full">
+                  <h3 className="text-lg font-bold text-[#4ECB38]">
+                    {contact.name}
+                  </h3>
+                  <p className="text-sm text-gray-600">{contact.role}</p>
+                </div>
+                <hr className="my-2 w-full border-gray-300" />
+                <div className="flex items-center">
+                  <svg
+                    width="32"
+                    height="18"
+                    viewBox="0 0 32 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Message_light">
+                      <rect
+                        id="Rectangle 1"
+                        x="5.33301"
+                        y="1"
+                        width="21.3333"
+                        height="16"
+                        rx="2.66667"
+                        stroke="#333333"
+                        strokeWidth="1.33333"
+                      />
+                      <path
+                        id="Vector 3"
+                        d="M5.33301 5L14.8071 9.73705C15.5578 10.1124 16.4415 10.1124 17.1922 9.73705L26.6663 5"
+                        stroke="#333333"
+                        strokeWidth="1.33333"
+                      />
+                    </g>
+                  </svg>
+                  <p className="text-sm text-gray-800 ml-2">{contact.email}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </section>
         <section>
-        <div className="min-h-[60vh] bg-white flex flex-col justify-center py-8 lg:py-16">
-        <h2 className="font-heading text-3xl md:text-5xl font-semibold">
-          Previous <span className="text-[#4ECB38]">Sponsors</span>
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-8 mt-8 w-full">
-          <div className="flex justify-center items-center">
-            <img
-              src="satgov.png"
-              alt="Ministry of Science and Technology"
-              className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
-            />
+          <div className="min-h-[60vh] bg-white flex flex-col justify-center py-8 lg:py-16">
+            <h2 className="font-heading text-3xl md:text-5xl font-semibold">
+              Previous <span className="text-[#4ECB38]">Sponsors</span>
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-8 mt-8 w-full">
+              <div className="flex justify-center items-center">
+                <img
+                  src="satgov.png"
+                  alt="Ministry of Science and Technology"
+                  className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
+                />
+              </div>
+              <div className="flex justify-center items-center">
+                <img
+                  src="adrio.png"
+                  alt="Adroitec"
+                  className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
+                />
+              </div>
+              <div className="flex justify-center items-center">
+                <img
+                  src="syngenta.png"
+                  alt="Syngenta Group"
+                  className="w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
+                />
+              </div>
+              <div className="flex justify-center items-center">
+                <img
+                  src="iiitd.png"
+                  alt="IIIT Delhi"
+                  className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
+                />
+              </div>
+              <div className="flex justify-center items-center">
+                <img
+                  src="anw.png"
+                  alt="Agriculture and Water Technology"
+                  className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
+                />
+              </div>
+            </div>
           </div>
-          <div className="flex justify-center items-center">
-            <img
-              src="adrio.png"
-              alt="Adroitec"
-              className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
-            />
-          </div>
-          <div className="flex justify-center items-center">
-            <img
-              src="syngenta.png"
-              alt="Syngenta Group"
-              className="w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
-            />
-          </div>
-          <div className="flex justify-center items-center">
-            <img
-              src="iiitd.png"
-              alt="IIIT Delhi"
-              className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
-            />
-          </div>
-          <div className="flex justify-center items-center">
-            <img
-              src="anw.png"
-              alt="Agriculture and Water Technology"
-              className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 object-contain"
-            />
-          </div>
-        </div>
-      </div>
         </section>
       </div>
     </div>
