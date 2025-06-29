@@ -71,19 +71,25 @@ const Navbar = () => {
           </a>
           <a
             href="/ica25/program"
-            className={`font-body hover:text-[#4ECB38] ${isActive("/ica25/program")}`}
+            className={`font-body hover:text-[#4ECB38] ${isActive(
+              "/ica25/program"
+            )}`}
           >
             Program
           </a>
           <a
             href="/ica25/calls"
-            className={`font-body hover:text-[#4ECB38] ${isActive("/ica25/calls")}`}
+            className={`font-body hover:text-[#4ECB38] ${isActive(
+              "/ica25/calls"
+            )}`}
           >
             Calls
           </a>
           <a
             href="/ica25/venue"
-            className={`font-body hover:text-[#4ECB38] ${isActive("/ica25/venue")}`}
+            className={`font-body hover:text-[#4ECB38] ${isActive(
+              "/ica25/venue"
+            )}`}
           >
             Venue
           </a>
@@ -140,7 +146,9 @@ const Navbar = () => {
             <li>
               <a
                 href="/ica25/program"
-                className={`font-body hover:underline ${isActive("/ica25/program")}`}
+                className={`font-body hover:underline ${isActive(
+                  "/ica25/program"
+                )}`}
               >
                 Program
               </a>
@@ -148,7 +156,9 @@ const Navbar = () => {
             <li>
               <a
                 href="/ica25/calls"
-                className={`font-body hover:underline ${isActive("/ica25/calls")}`}
+                className={`font-body hover:underline ${isActive(
+                  "/ica25/calls"
+                )}`}
               >
                 Calls
               </a>
@@ -156,7 +166,9 @@ const Navbar = () => {
             <li>
               <a
                 href="/ica25/venue"
-                className={`font-body hover:underline ${isActive("/ica25/venue")}`}
+                className={`font-body hover:underline ${isActive(
+                  "/ica25/venue"
+                )}`}
               >
                 Venue
               </a>
@@ -183,13 +195,13 @@ const Navbar = () => {
             </li>
             <li>
               <a
-            href="/ica25/gallery"
-            className={`font-body hover:text-[#4ECB38] ${isActive(
-              "/ica25/gallery"
-            )}`}
-          >
-            Gallery
-          </a>
+                href="/ica25/gallery"
+                className={`font-body hover:text-[#4ECB38] ${isActive(
+                  "/ica25/gallery"
+                )}`}
+              >
+                Gallery
+              </a>
             </li>
           </ul>
         </nav>
