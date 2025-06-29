@@ -59,7 +59,8 @@ const ProgramPage = () => {
         { time: "10:30 – 11:00", session: "Tea Break" },
         {
           time: "11:00 – 12:30",
-          session: "Paper Presentations - Session 1, Chair - Dr. Swati Shukla, VIT-AP University and Dr. Anamika Yadav, IIT Guwahati, Theme - Crop Protection and Monitoring",
+          session:
+            "Paper Presentations - Session 1, Chair - Dr. Swati Shukla, VIT-AP University and Dr. Anamika Yadav, IIT Guwahati, Theme - Crop Protection and Monitoring",
           papers: [
             {
               id: "27",
@@ -107,7 +108,8 @@ const ProgramPage = () => {
         },
         {
           time: "14:30 – 16:00",
-          session: "Paper Presentations - Session 2, Chair - Prof. Ram Prakash Sharma, NIT Arunachal, Theme - Remote-Sensing in Agriculture",
+          session:
+            "Paper Presentations - Session 2, Chair - Prof. Ram Prakash Sharma, NIT Arunachal, Theme - Remote-Sensing in Agriculture",
           papers: [
             {
               id: "57",
@@ -151,7 +153,8 @@ const ProgramPage = () => {
         {
           time: "16:30 – 17:00",
           session: "Invited Talk 2",
-          speaker: "Bala Natarajan (Online) , Kansas State University, Manhattan	",
+          speaker:
+            "Bala Natarajan (Online) , Kansas State University, Manhattan	",
         },
         {
           time: "17:00 – 18:00",
@@ -174,12 +177,14 @@ const ProgramPage = () => {
         {
           time: "09:45 – 10:30",
           session: "COMPAG Workshop",
-          speaker: "Prof. Tomas Norton, KU Leuven, Belgium  and S. Sree Ranjani,  Elsevier",
+          speaker:
+            "Prof. Tomas Norton, KU Leuven, Belgium  and S. Sree Ranjani,  Elsevier",
         },
         { time: "10:30 – 11:00", session: "Tea Break" },
         {
           time: "11:00 – 12:30",
-          session: "Paper Presentations - Session 3, Chair - Dr. David Tlaisun Thawmthanga D.Litt, Central Agricultural University Imphal and College of Veterinary Science & Animal Husbandry , Selesih, Aizawal, Theme - Multimodal Deep Learning in Agriculture",
+          session:
+            "Paper Presentations - Session 3, Chair - Dr. David Tlaisun Thawmthanga D.Litt, Central Agricultural University Imphal and College of Veterinary Science & Animal Husbandry , Selesih, Aizawal, Theme - Multimodal Deep Learning in Agriculture",
           papers: [
             {
               id: "6",
@@ -223,12 +228,12 @@ const ProgramPage = () => {
         {
           time: "14:00 – 14:30",
           session: "Invited Talk 3",
-          speaker:
-            "Ajay Dashora, IIT Guwahati",
+          speaker: "Ajay Dashora, IIT Guwahati",
         },
         {
           time: "14:30 – 16:00",
-          session: "Paper Presentations - Session 4, Chair - Dr. Simrandeep singh, Postdoc, IIT Ropar, Theme - GIS and Multispectral Applications in Agriculture",
+          session:
+            "Paper Presentations - Session 4, Chair - Dr. Simrandeep singh, Postdoc, IIT Ropar, Theme - GIS and Multispectral Applications in Agriculture",
           papers: [
             {
               id: "98",
@@ -263,7 +268,6 @@ const ProgramPage = () => {
           ],
         },
         { time: "16:00 – 16:30", session: "Tea Break" },
-        
       ],
     },
     {
@@ -272,7 +276,8 @@ const ProgramPage = () => {
       sessions: [
         {
           time: "16:30 – 17:45",
-          session: "Paper Presentations - Session 5, Chair - Dr. Srinivas Naidu, Gitam University, Theme - IoT Application in Agriculture",
+          session:
+            "Paper Presentations - Session 5, Chair - Dr. Srinivas Naidu, Gitam University, Theme - IoT Application in Agriculture",
           papers: [
             {
               id: "56",
@@ -297,7 +302,7 @@ const ProgramPage = () => {
           ],
         },
         { time: "19:30 onward", session: "Dinner" },
-      ]
+      ],
     },
     {
       day: "DAY 3",
@@ -306,13 +311,13 @@ const ProgramPage = () => {
         {
           time: "09:30 – 10:00",
           session: "Invited Talk 4",
-          speaker:
-            "Sudip Mitra, IIT Guwahati",
+          speaker: "Sudip Mitra, IIT Guwahati",
         },
         { time: "10:00 – 10:30", session: "Tea Break" },
         {
           time: "10:30 – 11:15",
-          session: "Paper Presentations - Session 6, Chair - Dr. Andrew Roobert, IIT Guwahati, Theme - Advanced AI for Agriculture",
+          session:
+            "Paper Presentations - Session 6, Chair - Dr. Andrew Roobert, IIT Guwahati, Theme - Advanced AI for Agriculture",
           papers: [
             {
               id: "3",
@@ -341,7 +346,10 @@ const ProgramPage = () => {
       {/* Keynote Speakers */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-16 relative">
-          <div className="absolute inset-0 flex items-center justify-center" aria-hidden="true">
+          <div
+            className="absolute inset-0 flex items-center justify-center"
+            aria-hidden="true"
+          >
             <div className="w-1/2 h-1 bg-green-100 rounded-full"></div>
           </div>
           <div className="relative">
@@ -349,29 +357,52 @@ const ProgramPage = () => {
               Keynote <span className="text-[#4ECB38]">Speakers</span>
             </h2>
             <p className="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">
-              Distinguished experts sharing groundbreaking insights and innovative perspectives
+              Distinguished experts sharing groundbreaking insights and
+              innovative perspectives
             </p>
           </div>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {keynoteSpeakers.map((speaker, index) => (
-            <div key={index} className="group relative bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+            <div
+              key={index}
+              className="group relative bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden"
+            >
               <div className="relative h-72 px-16 py-8 overflow-hidden">
-                <img src={speaker.image} alt={speaker.name} className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-105" />
+                <img
+                  src={speaker.image}
+                  alt={speaker.name}
+                  className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-105"
+                />
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white/20" />
                 <div className="absolute top-4 right-4 bg-[#4ECB38] text-white px-3 py-1 rounded-full text-sm font-medium shadow-sm">
                   Keynote Speaker
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-bold text-gray-900">{speaker.name}</h3>
+                <h3 className="text-2xl font-bold text-gray-900">
+                  {speaker.name}
+                </h3>
                 <p className="text-gray-600 mt-1">{speaker.title}</p>
                 <div className="mt-6">
-                  <a href={speaker.profileUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-5 py-2 border border-transparent text-base font-medium rounded-md text-white bg-[#4ECB38] hover:bg-[#3EAE28] transition-colors duration-300 group">
+                  <a
+                    href={speaker.profileUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-5 py-2 border border-transparent text-base font-medium rounded-md text-white bg-[#4ECB38] hover:bg-[#3EAE28] transition-colors duration-300 group"
+                  >
                     View Profile
-                    <svg className="ml-2 -mr-1 w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                    <svg
+                      className="ml-2 -mr-1 w-4 h-4 transform group-hover:translate-x-1 transition-transform"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      />
                     </svg>
                   </a>
                 </div>
@@ -397,20 +428,26 @@ const ProgramPage = () => {
             Program <span className="text-[#4ECB38]">Schedule</span>
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-           All Events to be Held at the Conference Center, IIT Guwahati
+            All Events to be Held at the Conference Center, IIT Guwahati
           </p>
         </div>
 
         <div className="space-y-12">
           {scheduleData.map((dayData, index) => (
-            <div key={index} className="bg-white rounded-xl shadow-md overflow-hidden">
+            <div
+              key={index}
+              className="bg-white rounded-xl shadow-md overflow-hidden"
+            >
               <div className="bg-[#4ECB38] px-6 py-4">
                 <h3 className="text-2xl font-bold text-white">{dayData.day}</h3>
                 <p className="text-white/90">{dayData.date}</p>
               </div>
               <div className="divide-y divide-gray-100">
                 {dayData.sessions.map((session, idx) => (
-                  <div key={idx} className="p-6 hover:bg-gray-50 transition-colors duration-150">
+                  <div
+                    key={idx}
+                    className="p-6 hover:bg-gray-50 transition-colors duration-150"
+                  >
                     <div className="flex flex-col md:flex-row md:items-center gap-4">
                       <div className="w-full md:w-1/5">
                         <span className="font-semibold text-gray-800 bg-green-50 px-3 py-1 rounded-md">
@@ -421,15 +458,23 @@ const ProgramPage = () => {
                         <h4 className="text-lg font-medium text-gray-900">
                           {session.session}
                           {session.speaker && (
-                            <span className="text-gray-600 ml-2">- {session.speaker}</span>
+                            <span className="text-gray-600 ml-2">
+                              - {session.speaker}
+                            </span>
                           )}
                         </h4>
                         {session.papers && (
                           <div className="mt-3 space-y-3">
                             {session.papers.map((paper, paperIdx) => (
-                              <div key={paperIdx} className="pl-4 border-l-2 border-[#4ECB38]">
+                              <div
+                                key={paperIdx}
+                                className="pl-4 border-l-2 border-[#4ECB38]"
+                              >
                                 <p className="text-sm text-gray-500">
-                                  Paper ID: <span className="font-medium">{paper.id}</span>
+                                  Paper ID:{" "}
+                                  <span className="font-medium">
+                                    {paper.id}
+                                  </span>
                                 </p>
                                 <p className="text-gray-800">{paper.title}</p>
                               </div>
