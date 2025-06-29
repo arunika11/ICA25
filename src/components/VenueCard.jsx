@@ -12,7 +12,6 @@ const VenueCard = ({ hidden, text, heading, imgurl }) => {
   return (
     <div>
       <div className="flex flex-col lg:flex-row items-center mt-20 lg:items-start justify-between p-6 lg:p-16 min-h-[70vh]">
-        {/* Left Text Section */}
         <div className="lg:w-1/2 space-y-6 mx-auto">
           <h2 className="font-heading text-5xl font-semibold">{heading}</h2>
           {!hidden ? (
