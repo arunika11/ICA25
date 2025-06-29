@@ -88,7 +88,7 @@ const Gallery = () => {
     "317-min.jpg",
     "318-min.jpg",
     "319-min.jpg",
-"367.jpg",
+    "367.jpg",
     "321-min.png",
     "322-min.jpg",
     "323-min.jpg",
@@ -160,7 +160,9 @@ const Gallery = () => {
           <div key={index} className="flex justify-center items-center">
             <img
               src={image}
-              alt={`${image == "360-min.jpg" ? "avinash gupta": Image }  ${index + 1}`}
+              alt={`${image == "360-min.jpg" ? "avinash gupta" : Image}  ${
+                index + 1
+              }`}
               className="w-[500px] h-[300px] object-cover rounded-lg shadow-md"
             />
           </div>
